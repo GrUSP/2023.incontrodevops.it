@@ -3,11 +3,11 @@ intro:
   content_1: "IDI Incontro DevOps Italia è la conferenza italiana dedicata alle tematiche DevOps. Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability..."
   content_2: "L'obiettivo dell'evento è consentire alla community di incontrarsi e condividere esperienze divertendosi e facendo rete in un contesto piacevole."
 # this is the global "read more" label
-readmore_label: "Leggi tutto" 
+readmore_label: "Leggi tutto"
 # these are the title and descriptions of the 6 blocks
 info_about:
   title: "About"
-  content: "GrUSP ed il team dietro al incontro devops"
+  content: "GrUSP ed il team di IDI"
 info_coc:
   title: "COC"
   content: "Regole di comportamento"
@@ -16,10 +16,10 @@ info_scholarships:
   content: "Come richiedere un biglietto gratuito"
 info_cfp:
   title: "CFP"
-  content: "Presenta un talk"
+  content: "Proponi un talk"
 info_venue:
   title: "Dove"
-  content: "Informazioni utili"
+  content: "Location e informazioni utili"
 info_ticket:
   title: "Biglietti"
   content: "I biglietti sono disponibili su Eventbrite"
