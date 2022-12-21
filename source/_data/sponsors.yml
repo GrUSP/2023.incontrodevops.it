@@ -9,11 +9,11 @@ sponsors_block_title: "Grazie al supporto di"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "OVHcloud"
+    logo_filename: "ovh.png"
+    site_url: "https://www.ovhcloud.com/en/public-cloud/kubernetes/"
 gold:
   sponsor0:
     name: "Daruma"
