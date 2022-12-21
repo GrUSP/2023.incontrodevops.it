@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://2023.incontrodevops.it/welcome/about.html</loc>
+    
+    <lastmod>2022-12-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2023.incontrodevops.it/workshop/workshop_2.html</loc>
     
     <lastmod>2022-12-21</lastmod>
@@ -16,14 +23,7 @@
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/schedule/index.html</loc>
-    
-    <lastmod>2022-12-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.incontrodevops.it/sponsor/index.html</loc>
+    <loc>https://2023.incontrodevops.it/welcome/where.html</loc>
     
     <lastmod>2022-12-21</lastmod>
     
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/welcome/about.html</loc>
+    <loc>https://2023.incontrodevops.it/welcome/scholarships.html</loc>
     
     <lastmod>2022-12-21</lastmod>
     
@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/welcome/scholarships.html</loc>
+    <loc>https://2023.incontrodevops.it/sponsor/index.html</loc>
     
     <lastmod>2022-12-21</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/welcome/where.html</loc>
+    <loc>https://2023.incontrodevops.it/schedule/index.html</loc>
     
     <lastmod>2022-12-21</lastmod>
     
