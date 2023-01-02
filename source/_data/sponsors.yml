@@ -4,11 +4,11 @@ sponsors_block_title: "Grazie al supporto di"
 #    name: ""
 #    logo_filename: ""
 #    site_url: ""
-# diamond:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+diamond:
+  sponsor1:
+    name: "SIGHUP"
+    logo_filename: "sighup.png"
+    site_url: "https://sighup.io/"
 platinum:
   sponsor1:
     name: "biodec"
