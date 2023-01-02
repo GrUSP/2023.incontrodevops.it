@@ -12,11 +12,11 @@ diamond:
 platinum:
   sponsor1:
     name: "biodec"
-    logo_filename: "biodec.png"
+    logo_filename: "biodec.svg"
     site_url: "http://www.biodec.it/?utm_source=idi2023"
   sponsor2:
     name: "OVHcloud"
-    logo_filename: "ovh.png"
+    logo_filename: "ovhcloud.svg"
     site_url: "https://www.ovhcloud.com/en/public-cloud/kubernetes/"
 gold:
   sponsor0:
