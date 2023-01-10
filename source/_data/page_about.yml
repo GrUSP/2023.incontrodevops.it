@@ -23,21 +23,25 @@ team:
   intro: ""
   members:
     member_1:
-      name: "Francesco Fullone"
-      role: "troublemaker"
-      pic_filename: "fullo.jpg"
-    member_2:
-      name: "Giulia Tosato"
-      role: "boss in charge"
-      pic_filename: "giulia.jpg"
-    member_3:
-      name: "Michele Finelli"
-      role: "esimio"
-      pic_filename: "michele.jpg"
-    member_5:
       name: "Giovanna Ferrari"
       role: "sponsor management"
       pic_filename: "giovanna.jpg"
+    member_2:
+      name: "Michele Finelli"
+      role: "esimio"
+      pic_filename: "michele.jpg"
+    member_3:
+      name: "Francesco Fullone"
+      role: "troublemaker"
+      pic_filename: "fullo.jpg"
+    member_4:
+      name: "Lara Lombardi"
+      role: "marketing manager"
+      pic_filename: "lara.png"
+    member_5:
+      name: "Giulia Tosato"
+      role: "boss in charge"
+      pic_filename: "giulia.jpg"
     member_6:
       name: "Matteo Beccati"
       role: "GrUSP Board Member"
