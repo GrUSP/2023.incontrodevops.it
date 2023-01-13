@@ -47,7 +47,7 @@ conference:
   update_link_url: ""
   update_link_label: ""
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Maggiori dettagli sulla CFP"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "La Call For Paper è aperta!"
@@ -122,11 +122,11 @@ conference:
   workshops_readmore_label: "Continua a leggere"
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: false
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_visible: true
+  media_pic_1: "IDI22_1.jpg"
+  media_pic_2: "IDI22_2.jpg"
+  media_pic_3: "IDI22_3.jpg"
+  media_pic_4: "IDI22_4.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
