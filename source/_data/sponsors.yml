@@ -15,6 +15,10 @@ platinum:
     logo_filename: "biodec.svg"
     site_url: "http://www.biodec.it/?utm_source=idi2023"
   sponsor2:
+    name: "digital.ai"
+    logo_filename: "digital_ai.svg"
+    site_url: "http://www.digital.ai"
+  sponsor3:
     name: "OVHcloud"
     logo_filename: "ovhcloud.svg"
     site_url: "https://www.ovhcloud.com/en/public-cloud/kubernetes/"
@@ -24,14 +28,18 @@ gold:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor1:
+    name: "sparkfabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# silver:
-#   sponsor4:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+silver:
+  sponsor1:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
 #   sponsor6:
 #     name: ""
 #     logo_filename: ""

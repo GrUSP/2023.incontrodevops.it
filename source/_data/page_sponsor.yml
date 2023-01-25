@@ -57,7 +57,7 @@ levels:
     name: Diamond
     amount: 5000
     vat_label: "(+ IVA 22%)"
-    available_slots: 4
+    available_slots: 2
     description_1:
       - "Accesso alla lista dei partecipanti (che hanno dato consenso a condivisione dati)"
     description_2:
@@ -81,7 +81,7 @@ levels:
     name: Platinum
     amount: 3000
     vat_label: "(+ IVA 22%)"
-    available_slots: 6
+    available_slots: 4
     description_2:
       - "Stand fisico - piccolo"
       - "Booth virtuale - piccolo"
