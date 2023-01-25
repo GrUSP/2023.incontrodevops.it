@@ -4,98 +4,252 @@ summary_page_button_label: "Torna alla pagina workshop"
 # image credits (l'esempio è per la hero del CSS Day!)
 workshop_img_credits:
 
-# workshops:
-#   font_variabili:
-#     ws_id: font_variabili
-#     is_external: false
-#     page_uri: "workshop/font_variabili.html"
-#     page_title: "Tipografia web e font variabili"
-#     workshop_title: "Tipografia web e font variabili"
-#     ticket_url: "https://incontrodevops-2021.eventbrite.com"
-#     ticket_label: "Partecipa"
-#     location_title: "Dove"
-#     # location: "Verona"
-#     online_location: "online"
-#     # location_name: "Hotel San Marco"
-#     # location_name: "The Internet"
-#     # location_contact_phone: "+045569011"
-#     # location_contact_email: "sanmarco@sanmarco.vr.it"
-#     # location_contact_url: "https://www.sanmarco.vr.it/"
-#     # location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-#     # location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
-#     # location_maps_label: "Get directions"
-#     # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
-#     location_additional_info: "Il workshop si svolge online, in aula virtuale"
-#     whatandwhen_title: "Quando"
-#     # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-#     whatandwhen_additional_info: "8 ore, divise in due sessioni: Martedì 16 e Mercoledì 17 Marzo 2021, dalle 9 alle 13."
-#     date: 2021-03-16 09:00
-#     end_date: 2021-03-17 13:00
-#     date_text:
-#     language_title: "Lingua"
-#     language: "italiano"
-#     # language_ext: "Lingua: italiano"
-#     language_additional_info: ""
-#     # collab: "Workshop realizzato in collaborazione con Giulia Laco"
-#     description: "Progettare un sistema tipografico per siti web sfruttando i vantaggi del formato OpenType 1.8"
-#     description_long:
-#       "<strong> Progettare un sistema tipografico per siti web sfruttando i vantaggi del formato OpenType 1.8 </strong>
-#       <br>
-#       <br  /> I font variabili rappresentano una grossa novità per la tipografia dei siti web e godono oggi di un buon supporto a livello dei browser. Il formato rappresenta inoltre un’opportunità di miglioramento delle performance dei web font e un sorprendente ampliamento delle possibilità tipografiche. I siti web sono strutture complesse in cui il testo compare con diverse funzioni: dal corpo del testo, ai titoli, ai menù di navigazione e non solo. Ogni parte merita un diverso trattamento tipografico per esaltare al contempo l'architettura del sito, la struttura di pagina e la natura stessa del contenuto. I font variabili sembrano proprio venirci in aiuto. Per sfruttarne appieno le potenzialità, occorre capirne le ragioni storiche e immaginarne l’utilizzo creativo nelle interfacce digitali, nell’animazione del testo, nel design fluido, fino all’espressione del brand in modi nuovi, prima impensabili.
-#       <br>
-#       <br  /> Nel workshop verranno affrontati sia aspetti teorici che pratici.
-#       <br>
-#       <br  /> <strong> Cosa ottieni frequentando questo workshop: </strong>
-#       <ul>
-#         <li>• Conoscenza del formato dei font variabili e collocazione nella storia tipografica</li>
-#         <li>• Capacità di corretta implementazione dei font variabili e dei fallback font con consapevolezza delle tematiche legate al web font loading</li>
-#         <li>• Consapevolezza di cosa si acquista quando si compera un font</li>
-#         <li>• Spunti per la creatività in base a ciò che un dato font prevede</li!>
-#       </ul>
-#       <br>"
-#     # video trailer?
-#     trailer: false
-#     trailer_url: "https://player.vimeo.com/video/352012164"
-#     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-#     teacher_title: "Docente"
-#     teachers:
-#       teacher_1:
-#         teacher_name: "Giulia Laco"
-#         teacher_bio: "Formazione umanistica mescolata alla Logica matematica, la Linguistica, l’Intelligenza Artificiale e la Filosofia del Linguaggio.
-#           Attratta dal Web design fin dagli esordi, sono stata webmaster in azienda nell’altro secolo e Web designer/developer in questo, appassionandomi ciclicamente a nuove discipline: Web Marketing, Architettura dell’Informazione, SEO, UX e Web Typography – per citarne alcune.
-#           Da qualche anno cerco di ispirare la comunità dei web designer all’utilizzo consapevole della tipografia per il web."
-#         pic_filename: "giulia-laco.jpg"
-#         teacher_role: "Web designer/developer"
-#         teacher_org: "WebMatter"
-#     # teacher_2:
-#       #  teacher_name: ""
-#       # teacher_bio: ""
-#       # pic_filename: ""
-#       # teacher_role: ""
-#       # teacher_org: ""
-#     topics_title: "Argomenti trattati"
-#     topics:
-#       - "Web font, font di sistema, UI system font"
-#       - "Formati di font"
-#       - "Direttiva CSS @font-face"
-#       - "Il caricamento dei font, FOIT/FOUT"
-#       - "La proprietà font-display"
-#       - "Fallback font e font-stack"
-#       - "I font variabili"
-#       - "Gli assi di variazione"
-#       - "Proprietà CSS (basso livello vs. CSS4)"
-#       - "Font-size (unità di misura)"
-#       - "Responsive Web Typography vs. Fluid Web Typography"
-#       - "Typesetting del paragrafo perfetto"
-#       - "Anatomia dei caratteri"
-#       - "Classificazione"
-#       - "Font-pairing"
-#       - "Testo e funzione"
-#     addressees_title: "A chi è rivolto"
-#     addressees_description: "Il corso è rivolto a designer, sviluppatori, product owner e manager che vogliano applicare font variabili e principi di tipografia al proprio prodotto o progetto."
-#     requirements_title: "Requisiti di partecipazione"
-#     requirements_description: "Per partecipare è necessaria una conoscenza base di CSS e HTML. <br /> Ti serviranno inoltre un editor di codice e il browser (consigliata: ultima versione di Firefox) <br /> Verranno suggeriti prima del corso eventuali altri strumenti/configurazioni utili."
-#     useful_info_title: "Informazioni utili"
-#     useful_info_description: "Il workshop si svolge online e dura 8 ore, divise in due mattine: Martedì 16 e Mercoledì 17 Marzo 2021, dalle 9 alle 13."
-#     # CTA
-#     cta_title: "Hurry up. There are only a few available places!"
+workshops:
+  rabbitmq:
+    ws_id: RabbitMQ
+    is_external: false
+    page_uri: "workshop/RabbitMQ.html"
+    page_title: "Workshop: Gentle introduction to RabbitMQ"
+    workshop_title: "Gentle introduction to RabbitMQ"
+    ticket_url: "https://incontrodevops-2023.eventbrite.com"
+    ticket_label: "Partecipa al workshop"
+    location_title: "Dove"
+    location: "Bologna"
+    # online_location: "online"
+    location_name: "Hotel Savoia Regency"
+    # location_name: "The Internet"
+    location_contact_phone: ""
+    location_contact_email: ""
+    location_contact_url: "https://www.savoia.eu/"
+    location_address: "Via del Pilastro, 2, 40127 Bologna BO"
+    location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+    location_maps_label: "Mappa"
+    location_additional_info: ""
+    # location_additional_info: "add info 2"
+    whatandwhen_title: "Quando"
+    whatandwhen_additional_info: "Giovedì 9 Marzo 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
+#    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
+    date: 2023-03-09T09:30+01:00
+    end_date: 2023-03-09T17:30+01:00
+    date_text: ""
+    language_title: "Lingua"
+    language: "italiano"
+    # language_ext: "Lingua: italiano"
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con Coders51"
+    # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
+    description_long:
+      "In questo training vedremo come usare RabbitMQ in diversi scenari.
+      <br><br  /><i>Che tipo di exchange devo usare? Che tipo di code è meglio usare? Come devo architettare la mia applicazione?</i> Sono le classiche domande di chi approccia RabbitMQ.
+      <br><br  />Vedremo come rispondere a questo domande, come fare evolvere gli applicativi che usano RabbitMQ e come utilizzarlo in locale per lo sviluppo, usando docker e docker-compose, e come installarlo su K8s senza troppo dolore.
+      <br><br  />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docente"
+    teachers:
+      teacher_1:
+        teacher_name: "Gianluca Padovani"
+        teacher_bio: "Sviluppo dai lontani anni '90. Ho lavorato in diversi ambienti e industrie (embedded, industriale, entertainment) sviluppando software di diverso tipo ma occupandomi in particolare di applicativi che comunicano tra di loro in diverse forme (c'è chi li chiamerebbe distribuiti ...).
+        <br> Sono appassionato di TDD, Extreme programming, Craftsmanship e tutto ciò che è 'buona programmazione'. Sono appassionato di programmi funzionali, in particolare di Elixir ed Erlang che utilizzo da ormai svariati anni. Ho sviluppato in molti altri linguaggi partendo dal C++, passando per C#, Ruby Javscript/Typescript e non disdegno impararne sempre di nuovi :-)
+        <br> Sono Founder e CTO di Coders51 azienda di consulenza specializzata nello sviluppo di applicazioni scalabili e fault tolerant.
+        Coautore di <a href='https://leanpub.com/cronache-di-domain-driven-design'>'Cronache di Domain-Driven Design'.</a>"
+        pic_filename: "gianluca-padovani.jpg"
+        teacher_role: "Founder e CTO"
+        teacher_org: "Coders51"
+    topics_title: "Programma"
+    topics:
+      - "Cos’è RabbitMQ e a cosa serve"
+      - "Dove si pubblica e dove si consumano i messaggi? (Exchange vs Code)"
+      - "Quali tipi di exchange esistono e quali sono le loro differenze"
+      - "Prefetch ack e nack"
+      - "Come evitare di perdere i message (Dead letter Queue)"
+      - "Opzioni sulle code e sui messaggi (TTL, Lazy, persistent, etc.)"
+      - "Policy"
+      - "Code Classic vs Quorum vs Stream"
+      - "High Availability non è solo sul server"
+      - "Federation, shovel e altri plugin"
+      - "Installazione in produzione"
+    addressees_title: "A chi è rivolto"
+    addressees_description: "Il corso è per Developer o DevOps che vogliono iniziare a capire come utilizzare al meglio RabbitMQ. Non è necessaria nessuna conoscenza precedente di RabbitMQ."
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Potete usare il linguaggio che preferite purché abbia una libreria per RabbitMQ, esiste per qualsiasi linguaggio.
+    <br><br  /> È necessario avere docker e docker-compose installato sulla propria macchina. Istruzioni più dettagliate saranno inviate qualche giorno prima del workshop."
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto. L'accesso sarà subordinato alle normative COVID-19 vigenti.
+    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
+    # CTA
+    cta_title: "Assicurati un posto! I biglietti sono in vendita"
+
+  kubernetes-intro:
+    ws_id: introduzione_kubernetes
+    is_external: false
+    page_uri: "workshop/introduzione_kubernetes.html"
+    page_title: "Workshop: Introduzione a Kubernetes per Software Engineer/Developer"
+    workshop_title: "Introduzione a Kubernetes per Software Engineer/Developer"
+    ticket_url: "https://incontrodevops-2023.eventbrite.com"
+    ticket_label: "Partecipa al workshop"
+    location_title: "Dove"
+    location: "Bologna"
+    # online_location: "online"
+    location_name: "Hotel Savoia Regency"
+    # location_name: "The Internet"
+    location_contact_phone: ""
+    location_contact_email: ""
+    location_contact_url: "https://www.savoia.eu/"
+    location_address: "Via del Pilastro, 2, 40127 Bologna BO"
+    location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+    location_maps_label: "Get directions"
+    location_additional_info: ""
+    # location_additional_info: "add info 2"
+    whatandwhen_title: "Quando"
+    whatandwhen_additional_info: "Giovedì 9 Marzo 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
+#    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
+    date: 2023-03-09T09:30+01:00
+    end_date: 2023-03-09T17:30+01:00
+    date_text: ""
+    language_title: "Lingua"
+    language: "italiano"
+    # language_ext: "Lingua: italiano"
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con SIGHUP"
+    # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
+    description_long:
+      "Il workshop è rivolto a developer e software engineer che vogliono approfondire le conoscenze di Kubernetes ed imparare le best-practice per il deployment di architetture monolitiche e/o a microservizi.
+      <br><br  />
+      Nella prima parte del workshop, partiremo dalle <strong>basi di Kubernetes, vedendo i principi fondamentali ed il funzionamento dei componenti core.</strong>
+      Nella seconda parte ci concentreremo su argomenti avanzati quali le <strong>best practices di deployment, il troubleshooting applicativo, la gestione dei manifests (con Kustomize ed Helm), ed infine, le pipeline di continuous integration e continuous delivery.</strong>
+      <br><br  />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docente"
+    teachers:
+      teacher_1:
+        teacher_name: "Giuseppe Rotella"
+        teacher_bio: "Atlassian Certified Expert e Devops Engineer con esperienza nella progettazione, configurazione e distribuzione di soluzioni Atlassian e Devops. Amante della tecnologia e delle innovazioni, a cui piace confrontarsi e condividere le informazioni quotidianamente. Affascinato dall’evoluzione del mondo DevOps e dal progresso tecnologico."
+        pic_filename: giuseppe-rotella.jpeg
+        teacher_role: "DevOps Engineer"
+        teacher_org: "SIGHUP"
+    topics_title: "Programma"
+    topics:
+      - "Architettura di Kubernetes;"
+      - "Componenti e risorse base;"
+      - "Deployment di un’applicazione con architettura three-tier su Kubernetes;"
+      - "Troubleshooting e debugging applicativo;"
+      - "Best practices per i deployment di applicazioni;"
+      - "Gestione dei manifests con Kustomize e Helm;"
+      - "Introduzione a pipeline di CI/CD e GitOps."
+    addressees_title: "Cosa ottieni frequentando il workshop"
+    addressees_description: "Grazie a questo workshop:
+    <ul>
+    <li>Diventerai cintura nera di tutti i componenti core per la gestione del lifecycle applicativo;</li>
+    <li>Imparerai ad utilizzare Helm e Kustomize per gestire e distribuire i tuoi applicativi;</li>
+    <li>Imparerai come fare debugging e troubleshooting delle tue applicazioni;</li>
+    <li>Imparerai le best practice per il deployment delle tue architetture software.</li>
+    </ul><br>"
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Il workshop è di livello introduttivo/base ed è rivolto a developer e software engineer.
+    <br><br  /> Sono richieste:
+    <ul>
+    <li>Familiarità con ambiente Linux/Unix;</li>
+    <li>Esperienza nella scrittura e deploy di microservizi;</li>
+    <li>Conoscenza base di Docker.</li>
+    </ul>
+    <br><br  /> Per partecipare sono necessari:
+    <ul>
+    <li>Un laptop;</li>
+    <li>Un terminale da cui poter effettuare una connessione SSH verso gli ambienti di laboratorio.</li>
+    </ul>
+    <br><br  /> Prima dell’inizio del workshop, verranno fornite ad ogni partecipante le credenziali di accesso di un Cluster Kubernetes di laboratorio dove poter sperimentare gli argomenti trattati nel corso.
+    <br>Si raccomanda ad ogni partecipante di verificare (prima dell’inizio del workshop) il corretto accesso al cluster di Lab, e di segnalare eventuali problemi."
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto. L'accesso sarà subordinato alle normative COVID-19 vigenti.
+    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
+    # CTA
+    cta_title: "Assicurati un posto! I biglietti sono in vendita"
+
+  tanzu:
+    ws_id: tanzu
+    is_external: false
+    page_uri: "workshop/tanzu.html"
+    page_title: "Workshop: Plaftorm-Aware Applications o Applications-Aware Platform? Nessun dilemma"
+    workshop_title: "Plaftorm-Aware Applications o Applications-Aware Platform? Nessun dilemma"
+    ticket_url: "https://incontrodevops-2023.eventbrite.com"
+    ticket_label: "Partecipa al workshop"
+    location_title: "Dove"
+    location: "Bologna"
+    # online_location: "online"
+    location_name: "Hotel Savoia Regency"
+    # location_name: "The Internet"
+    location_contact_phone: ""
+    location_contact_email: ""
+    location_contact_url: "https://www.savoia.eu/"
+    location_address: "Via del Pilastro, 2, 40127 Bologna BO"
+    location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+    location_maps_label: "Mappa"
+    location_additional_info: ""
+    # location_additional_info: "add info 2"
+    whatandwhen_title: "Quando"
+    whatandwhen_additional_info: "Giovedì 9 Marzo 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
+#    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
+    date: 2023-03-09T09:30+01:00
+    end_date: 2023-03-09T17:30+01:00
+    date_text: ""
+    language_title: "Lingua"
+    language: "italiano"
+    # language_ext: "Lingua: italiano"
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con VMware"
+    # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
+    description_long:
+      "Kubernetes è una tecnologia molto potente ma allo stesso tempo anche molto complessa.
+      La sua adozione ha solitamente forti impatti sui team di sviluppo i quali rischiano di perdere il focus su quello che sanno fare bene, scrivere codice di qualità, prendendosi in carico aspetti di 'adattamento' del proprio lavoro sempre più condizionati dalle piattaforme di destinazione.
+      <br><br  />In questo workshop esploreremo un approccio diverso, possibile grazie ad una serie di soluzioni OpenSource opportunamente integrate tra di loro che stanno alla base di Tanzu Application Platform.
+      <br><br  />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docenti"
+    teachers:
+      teacher_1:
+        teacher_name: "Ruggero Citterio"
+        teacher_bio: "Aiuto i nostri clienti nell’epocale passaggio dalla virtualizzazione alla containerizzazione attraverso la modernizzazione applicativa."
+        pic_filename: "ruggero-citterio.png"
+        teacher_role: "Solution Engineer"
+        teacher_org: "VMware Tanzu"
+      teacher_2:
+        teacher_name: "Carlo Pulcini"
+        teacher_bio: ""
+        pic_filename: "carlo-pulcini.png"
+        teacher_role: "Solution Engineer"
+        teacher_org: "VMware Tanzu"
+      teacher_3:
+        teacher_name: "Roberto Colella"
+        teacher_bio: ""
+        pic_filename: "roberto-colella.png"
+        teacher_role: "Solution Engineer"
+        teacher_org: "VMware Tanzu"
+    topics_title: "Programma: vedremo come"
+    topics:
+      - "Astrarre i meccanismi dell’orchestrazione dei containers durante tutta la catena che va dalla produzione del codice alla sua messa in esecuzione;"
+      - "Cablare controlli di sicurezza nella catena di deployment/promozione del codice senza particolari vincoli o rigidità;"
+      - "Disaccoppiare efficacemente lo sviluppo lasciando piena libertà ai team di operations di dichiarare processi di delivery sicuri, consistenti, automatizzabili e ripetibili per ogni nuovo workload."
+    addressees_title: "A chi è rivolto"
+    addressees_description: "<ul>
+    <li>Sviluppatori interessati ad una developer experience migliore;</li>
+    <li>Team di DevSecOps.</li>
+    </ul>"
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "<ul>
+    <li>Esperienza di sviluppo o di gestione delle supply chain su Kubernetes; </li>
+    <li>Portarsi appresso il proprio Mac/PC e polpastrelli caldi per fare un po’ di 'hands on'.</li>
+    </ul>"
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto. L'accesso sarà subordinato alle normative COVID-19 vigenti.
+    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
+    # CTA
+    cta_title: "Assicurati un posto! I biglietti sono in vendita"

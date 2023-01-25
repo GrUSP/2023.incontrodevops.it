@@ -14,9 +14,10 @@ menu:
   # workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-# workshop_submenu:
-#   font_variabili: Tipografia web e font variabili
-#   workshop_2: sample second workshop
+workshop_submenu:
+  RabbitMQ: Gentle introduction to RabbitMQ
+  introduzione_kubernetes: Introduzione a Kubernetes
+  tanzu: Tanzu Application Platform
 
 # welcome submenu
 welcome_submenu:
