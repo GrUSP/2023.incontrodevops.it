@@ -4,18 +4,187 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
+# speaker_1: &luca
+#   speaker_in_speaker_lists: true
+#   speaker_name: Luca Barzè
+#   speaker_pic_filename:
+#   speaker_role: ""
+#   speaker_bio: ""
+#   speaker_github_url: ""
+#   speaker_twitter_url: "https://twitter.com/"
+#   is_mc: false
+# speaker_2: &lars
+#   speaker_in_speaker_lists: true
+#   speaker_name: Lars Bendix
+#   speaker_pic_filename: lars-bendix.png
+#   speaker_role: "Associate professor @ Lund University, Sweden"
+#   speaker_bio: """
+#   speaker_github_url: ""
+#   speaker_twitter_url: "https://twitter.com/"
+#   is_mc: false
+speaker_3: &marcello
+  speaker_in_speaker_lists: true
+  speaker_name: Marcello Cerruti
+  speaker_pic_filename: marcello-cerruti.png
+  speaker_role: "Chief Cloud Officier @ Vegan/s"
+  speaker_bio: "Drupalista diventato sysadmin. Appassionato di tutto quello che c'è nella terra di mezzo fra Dev & Ops. Attualmente gestisco un team di SysAdmin e DevOps."
   speaker_github_url: ""
-  speaker_twitter_url: ""
+  speaker_twitter_url: "https://twitter.com/2autunni"
   is_mc: false
+speaker_4: &giuseppe
+  speaker_in_speaker_lists: true
+  speaker_name: Giuseppe Cozzolino
+  speaker_pic_filename: giuseppe-cozzolino.png
+  speaker_role: "Presales Engineer @ SUSE"
+  speaker_bio: "Giuseppe is a Presales Engineer working every day with most of the cloud native solutions. He is working in the IT from 10 years starting as a developer. He is dad since May 2021 with the gym and cooking passion."
+  is_mc: false
+speaker_5: &francesco
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Degrassi
+  speaker_pic_filename: francesco-degrassi.png
+  speaker_role: "Partner & CTO @ OptionFactory"
+  speaker_bio: "Long time software developer, with experience in ICT security, process automation and network device management fields. Formerly Dev Lead in Emaze and ThoughtWorks London.
+  Currently partner and CTO at OptionFactory, specialized in application security, high availability and scaling up."
+  speaker_github_url: "https://github.com/EdMcBane"
+  speaker_twitter_url: "https://twitter.com/EdMcBane"
+  is_mc: false
+speaker_6: &emiliojunior
+  speaker_in_speaker_lists: true
+  speaker_name: Emilio Junior	Francischetti
+  speaker_pic_filename: emiliojunior-francischetti.png
+  speaker_role: "Software Engineer @ Coders51"
+  speaker_bio: "Appassionato di sviluppo software e automazione, amo prendere dei bei monoliti, grossi, super accoppiati e ovviamente senza tests, per poi trasformarli in applicazione cloud native in salsa TDD, DDD, CQRS, Event Sorcing e ovviamente su Kubernetes. Mi definisco quindi un Restauratore Software."
+  speaker_github_url: "https://github.com/ejf-coders51"
+  is_mc: false
+speaker_7: &giovanni
+  speaker_in_speaker_lists: true
+  speaker_name: Giovanni Galloro
+  speaker_pic_filename: giovanni-galloro.png
+  speaker_role: "Customer Engineer @ Google"
+  speaker_bio: "Giovanni Galloro lavora in Google dal 2017 come Application Modernization Customer Engineer. Aiuta diversi tipi di organizzazioni a sviluppare e rilasciare nuove applicazioni o modernizzare quelle esistenti, utilizzando container, Kubernetes, GKE, Istio, Continuous Delivery e tutti gli strumenti e le pratiche relative alle architetture DevOps e Cloud Native."
+  speaker_github_url: "https://github.com/ggalloro"
+  speaker_twitter_url: "https://twitter.com/ggalloro"
+  is_mc: false
+# speaker_8: &davide
+#   speaker_in_speaker_lists: true
+#   speaker_name: Davide Imola
+#   speaker_pic_filename: davide-imola.png
+#   speaker_role: "DevOps Engineer @ RedCarbon - Community Co-Organizer @ Schrödinger Hat"
+#   speaker_bio: "Davide was born in 1995. He started coding at 12 when he asked to receive his first personal computer as a gift for his first communion. He is currently a DevOps Engineer at RedCarbon. He loves Node.js, Golang, Cloud-Native, and Kubernetes, he's one of the co-organizers of <a href='https://schrodinger-hat.it'>an Italian Community based on Open Source.</a>"
+#   speaker_github_url: ""
+#   speaker_twitter_url: ""
+#   is_mc: false
+speaker_9: &fabioalessandro
+  speaker_in_speaker_lists: true
+  speaker_name: Fabio Alessandro Locati
+  speaker_pic_filename: fabioalessandro-locati.png
+  speaker_role: "EMEA Associate Principal Solution Architect @ Red Hat"
+  speaker_bio: "Fabio Alessandro Locati - commonly known as Fale - is an EMEA Associate Principal Solutions Architect at Red Hat, public speaker, author, and Open Source contributor. His primary areas of expertise are Linux, automation, security, and cloud technologies. Fale has more than 15 years of working experience in IT, with many of them spent consulting for many companies, including dozens of Fortune 500 companies. Fale has written 'Practical Ansible 2', 'Learning Ansible 2.7', 'Learning Ansible 2', 'OpenStack Cloud Security' and has been part of the review process of multiple books."
+  speaker_github_url: "https://github.com/fale"
+  is_mc: false
+speaker_10: &paolo
+  speaker_in_speaker_lists: true
+  speaker_name: Paolo Mainardi
+  speaker_pic_filename: paolo-mainardi.png
+  speaker_role: "CTO @ SparkFabrik"
+  speaker_bio: "Hello, I am Paolo Mainardi, proud founder and CTO of SparkFabrik. My role is to drive the company toward innovation, by building cutting-edge and cloud-native web applications and doing Kubernetes consultancy at different levels, from the the cluster management to custom implementations, we are also CNCF Silver Member and Kubernetes Certified Service Provider (KCSP).When i am not too busy with the company stuff, i like to contribute to open source projects, speaking and organizing conferences and actively participating to the community."
+  speaker_github_url: "https://github.com/paolomainardi"
+  speaker_twitter_url: "https://twitter.com/paolomainardi"
+  is_mc: false
+speaker_11: &alessandro
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandro Miliucci
+  speaker_pic_filename: alessandro-miliucci.png
+  speaker_role: "Lead Software Engineer @ Axerve S.p.a."
+  speaker_bio: "Alessandro Miliucci è uno sviluppatore attivo nel settore delle startup e del fintech. Nel 2014 ha collaborato alla creazione di Hype, la prima challenger bank italiana. Qualche anno dopo, in cerca di una sfida ancora più grande, ha co-fondato e creato Vidra, una piattaforma SaaS di ecommerce dove ha ricoperto il ruolo di CTO. Ora che la startup è stata acquisita si è unito ad Axerve per continuare il lavoro fatto finora. Un suo libro su React è in uscita nel 2023."
+  speaker_github_url: "https://github.com/lifeisfoo"
+  is_mc: false
+speaker_12: &massimo
+  speaker_in_speaker_lists: true
+  speaker_name: Massimo Re Ferre'
+  speaker_pic_filename: massimo-referre.png
+  speaker_role: "Senior Principal Technologist @ AWS"
+  speaker_bio: "Massimo is a Senior Principal Technologist at AWS. He has been working on containers since 2014 and is now part of the  DECS (Developers, Events, Containers, Serverless) organization at AWS. Massimo has a blog at <a href='https://it20.info'>it20.info</a> and his Twitter handle is @mreferre."
+  speaker_github_url: "https://github.com/mreferre"
+  speaker_twitter_url: "https://twitter.com/mreferre"
+  is_mc: false
+speaker_13: &leonardo
+  speaker_in_speaker_lists: true
+  speaker_name: Leonardo Romanato
+  speaker_pic_filename: leonardo-romanato.png
+  speaker_role: "Global Head of DevOps Platform and Services"
+  speaker_bio: "I love to dig into our internal customers problems and scale our DevOps Platform to help solve them with best of breed tools and technologies. To achieve the result I focus on the outcomes, building skilled teams and focusing on measuring our results and ensuring to have in place a frequent feedback loop with our customers. I had been a guitar player for a long time (15+ years), touring quite often in Northern Italy and Europe: this helped me a lot developing my creative side but also my ability to stay on a stage and face an audience. I am also a sport fanatic, especially when it comes to outdoor sports. They helped you to learn to be resilient, which in my point of view is a key factor to succeed in today's business world."
+  speaker_twitter_url: "https://twitter.com/F3ar873"
+  is_mc: false
+# speaker_14: &chiara
+#   speaker_in_speaker_lists: true
+#   speaker_name: Chiara Salvatore
+#   speaker_pic_filename: .jpg
+#   speaker_role: ""
+#   speaker_bio: ""
+#   speaker_github_url: "@chiarasalvatore"
+#   speaker_twitter_url: "@chiarasalvatore"
+#   is_mc: false
+# speaker_15: &SPEAKER
+#   speaker_in_speaker_lists: true
+#   speaker_name:
+#   speaker_pic_filename: .jpg
+#   speaker_role: ""
+#   speaker_bio: ""
+#   speaker_github_url: ""
+#   speaker_twitter_url: ""
+#   is_mc: false
+speaker_16: &lino
+  speaker_in_speaker_lists: true
+  speaker_name: Lino Telera
+  speaker_pic_filename: lino-telera.png
+  speaker_role: "Cloud Architect @ InfoCert S.p.A."
+  speaker_bio:  "Cloud Architect focused on Infrastructure Automation for InfoCert S.p.A..
+  After earning the first VMware certification he joined VMware Users Group Italy in 2015, and he attended the first VMware {code} hackathon in 2016. Lino is a TechFieldDay delegate and he likes to spend the spare time authoring his <a href='https://blog.linoproject.net'>blog</a>, running the Italian podcast 'ThePipelineGuys' and teaching code to kids with CoderDojo initiatives. Recently he started teaching at Università Cattolica del Sacro Cuore (CR)"
+  speaker_github_url: "https://github.com/linotelera"
+  speaker_twitter_url: "https://twitter.com/linotelera"
+  is_mc: false
+speaker_17: &dario
+  speaker_in_speaker_lists: true
+  speaker_name: Dario Tranchitella
+  speaker_pic_filename: dario-tranchitella.png
+  speaker_role: "Open Source Developer @ CLASTIX"
+  speaker_bio: "Software Engineer turned SRE to get paged in the middle of the night for multi-cluster setups and thousand of worker nodes on bare-metal: been there, done that. Besides the primary working role as memes author on Twitter around Kubernetes and Cloud Native, working at HAProxy Technologies for their Kubernetes-based projects, and maintainer and technical advisor for CLASTIX, an open source start-up focused on multi-tenancy."
+  speaker_github_url: "https://github.com/prometherion"
+  speaker_twitter_url: "https://twitter.com/tranchitellad"
+  is_mc: false
+# speaker_18: &alvise
+#   speaker_in_speaker_lists: true
+#   speaker_name: Alvise Vitturi
+#   speaker_pic_filename: alvise-vitturi.png
+#   speaker_role: "Senior DevOps Engineer"
+#   speaker_bio: "Ho iniziato la mia carriera come sviluppatore software per poi migrare verso il mondo DevOps.
+# Sono ossessionato dal 'containerizzare' qualsiasi applicazione e sono un amante della CI/CD.
+# Il mio interesse principale è capire come progettare una piattaforma per sviluppatori, per massimizzare il valore che i team di sviluppo possano offrire.
+# Non ho idee originali, faccio un ottimo lavoro nel riconoscere e impacchettare le idee altrui."
+#   speaker_github_url: "https://github.com/Alvise88"
+#   speaker_twitter_url: ""
+#   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+#  speaker_1: *luca
+#  speaker_2: *lars
+  speaker_3: *marcello
+  speaker_4: *giuseppe
+  speaker_5: *francesco
+  speaker_6: *emiliojunior
+  speaker_7: *giovanni
+#  speaker_8: *davide
+  speaker_9: *fabioalessandro
+  speaker_10: *paolo
+  speaker_11: *alessandro
+  speaker_12: *massimo
+  speaker_13: *leonardo
+ # speaker_14: *chiara
+ # speaker_15: *SPEAKER
+  speaker_16: *lino
+  speaker_17: *dario
+ # speaker_18: *alvise
 
 tracks:
   track_1: &track_1
@@ -60,23 +229,183 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      # talk1:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T09:30+02:00
+      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: "Kubernetes per l'Edge Computing: Una soluzione efficace	"
+      #   talk_description: "L'edge computing è un aspetto sempre più importante della digital transformation, che consente alle organizzazioni di avvicinare contenuti, dati ed elaborazioni alle applicazioni, agli oggetti e agli utenti che li consumano. Kubernetes è un componente chiave di questo processo, in quanto fornisce un framework coerente per lo sviluppo e la distribuzione delle applicazioni. Tuttavia, la gestione dell'infrastruttura per l'edge computing può essere complessa, poiché si devono considerare questioni come la sicurezza, la scalabilità e la manutenzione. In questo intervento tecnico presenteremo una soluzione coerente per la gestione dell'infrastruttura di edge computing utilizzando strumenti come K3s, SLE Micro, Elemental e Rancher. Dimostreremo come questi strumenti possono aiutare ad affrontare le problematiche più frequenti e consentire alle organizzazioni di sfruttare i vantaggi dell'edge computing."
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *luca
+      # talk2:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: "The full story of Software Bill of Materials (SBoM)"
+      #   talk_description: "Why should DevOps practitioners be interested in Software Bill of Materials (SBoM)? Firstly, being responsible for “producing things” (binaries and executables) DevOps has immediate access, at the time when it is created, to the data that is needed for constructing an SBoM for a binary or executable, which makes it a lot easier and faster to construct and its data more consistent. Secondly, the use of an SBoM is not limited to searching for vulnerabilities. It has many other use cases that are very useful during the development and maintenance of a product. So DevOps will not only be “producers” of SBoMs, but can also be very active “consumers” of SBoMs in their daily work. The American NTIA has worked hard to make SBoMs a legal requirement for delivering software to the American government - and other sectors may follow in the future. The NTIA has been very focused on cybersecurity and sees an SBoM as “a list of ingredients used for vulnerability scan”. Even if this is an important use case, an SBoM is much more than just a list of ingredients and the range of use cases for an SBoM is much wider than a simple scan for vulnerabilities. The concept of SBoM also has a much longer and varied history than recent security incidents. In this talk, we present and motivate a number of the 10 overarching use case categories (of which “vulnerability scan” is only one) that we have distilled from an extensive literature study and numerous interviews with practitioners. Furthermore, we sketch the requirements that are needed for implementing a selected set of these use case categories. Finally, we list a number of general, cross-cutting considerations that you should take into account if you want the operation of SBoMs to be smooth and powerful. With this knowledge DevOps practitioners will be able to utilise and exploit the concept of SBoM to its full potential and provide better service and support for development teams and organisations."
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *lars
+      talk3:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Storia di una (not so) Internal Developer Platform"
+        talk_description: "Costruire una Internal Developer Platform è un ottimo modo per rendere più semplice e efficiente il lavoro del team di sviluppo: ma cosa succede quando hai team molto eterogenei? E se questi team lavorano in una molteplicità di ambienti? E se devi confrontarti con regole di compliance molto stringenti? In questa sessione parleremo molto poco di tools e molto dei processi che si innescano in un'azienda quando si decide di adottare questo approccio."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *marcello
+      talk4:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Sfruttare i vantaggi dell'HCI cloud-native con Harvester"
+        talk_description: "L’infrastruttura iperconvergente (HCI) è diventata una scelta popolare per le aziende che vogliono semplificare le operazioni del data center e ridurre i costi. Tuttavia, molte soluzioni HCI si basano su software proprietario e hardware specializzato, che possono essere costosi e bloccare gli utenti ad un fornitore specifico. In questo intervento presenteremo Harvester, una soluzione HCI moderna e open-source costruita su Kubernetes e progettata per i server bare metal. Verranno illustrate le caratteristiche principali di Harvester, tra cui la gestione del ciclo di vita delle macchine virtuali, lo storage a blocchi distribuito e l’integrazione con Rancher. Dimostreremo inoltre come utilizzare Harvester per distribuire e gestire macchine virtuali su un server bare metal. Alla fine di questo intervento, i partecipanti avranno una migliore comprensione di come Harvester possa aiutarli a semplificare il loro stack infrastrutturale e a sfruttare i vantaggi delle soluzioni cloud-native."
+        talk_video_url:
+        speakers:
+          speaker_1: *giuseppe
+      talk5:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Teaching an old dog new tricks: extending Postgres capabilities with Rust"
+        talk_description: "Postgres represents a cornerstone of many modern apps, and yet has the potential to play a much larger role than that of a simple database. Its extensibility has always been a core strength, and today pgx-rs allows extensions to be authored in Rust, making it easier and safer, unlocking that unrealized potential. In this experience-based, practical session, we'll explore Postgres extensibility features and we'll develop, test, and deploy a real extension using pgx-rs, a comprehensive open source framework to extend Postgres."
+        talk_video_url:
+        speakers:
+          speaker_1: *francesco
+      talk6:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Stop logging. Start observe"
+        talk_description: "Negli ultimi anni i nostri applicativi si stanno sempre più trasformando in sistemi distribuiti, come microservizi, serverless ed edge computing. Questa migrazione porta molti benefici, ma anche sfide sui temi di monitoring, tracing e logging, rendendo a volte quello che prima era semplice, un vero inferno. La creazione e la diffusione di OpenTelemetry ha reso queste pratiche, ora non più legate al singolo vendor ma facilmente interscambiabili. Vedremo quindi un esempio pratico di come OpenTelemetry possa semplificare e migliorare il lavoro di  troubleshooting e di monitoring di applicazioni sia tradizionali che cloud-native."
+        talk_video_url:
+        speakers:
+          speaker_1: *emiliojunior
+      talk7:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Safeguarding artifact integrity in your Software Supply Chain"
+        talk_description: "In questo talk descriveremo alcune best practice per migliorare la sicurezza della tua Software Supply Chain, capirai cos'è il framework SLSA e vedrai esempi di utilizzo degli strumenti di Google che aiutano a risolvere le vulnerabilità delle dipendenze sia nella fase di sviluppo che in quella di build, attestare l'integrità del processo di build, configurare gli ambienti di runtime per accettare solo codice attendibile e monitorare continuamente le applicazioni in esecuzione per nuove vulnerabilità."
+        talk_video_url:
+        speakers:
+          speaker_1: *giovanni
+      # talk8:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: "How to GitOps your Kubernetes cluster with Flux"
+      #   talk_description: "Gestire un cluster Kubernetes può risultare complesso, soprattutto nella gestione dei rilasci delle applicazioni e l'aggiornamento dell'infrastruttura. Per questo capiremo i pro nel passare a una metodologia GitOps per il mantenimento della propria infrastruttura e proveremo a sporcarci le mani automatizzando i vari processi tramite Flux, uno degli ultimi progetti CNCF Graduated!"
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *davide
+      talk9:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Kubernetes supporta diverse architetture. Stai usando la migliore per te?"
+        talk_description: "Kuberenetes può utilizzare diverse architetture (x86, ARM, PPC, s390x) e utilizzare la giusta o giuste architetture per te può fare la differenza. Le differenti architetture hanno vantaggi e svantaggi, ma per poterle utilizzare al meglio dovrai correttamente pianificare la tua architettura e le tue pipeline per fare le build delle immagini. Ho aiutato molti team a capire le diverse architetture e come progettare e usare ambienti multi-architettura. In questa presentazione, spiegherò i vantaggi e svantaggi delle differenti architetture, e come progettare e operare questi scenari complessi. In aggiunta, vedremo come creare in modo automatico le container image per le varie architetture."
+        talk_video_url:
+        speakers:
+          speaker_1: *fabioalessandro
+      talk10:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Deep dive nella supply chain della nostra infrastruttura cloud"
+        talk_description: "L'infrastruttura come codice e le applicazioni cloud-native consentono di raggiungere livelli senza precedenti di efficienza e governance dei nostri servizi cloud, rendendoci capaci di creare infrastrutture immutabili e ripetibili, di poterci operare come se fossero applicazioni quindi versionando il codice, qa e test automatici e procedure di rilascio automatiche verso gli ambienti di destinazione. Più inseriamo codice nelle nostre infrastrutture, più estendiamo la superficie di attacco. In questo talk, esaminerò gli attacchi alla catena di approvvigionamento a diversi livelli, come rilevarli e le tecniche per mitigarli e come scrivere codice IaC più sicuro."
+        talk_video_url:
+        speakers:
+          speaker_1: *paolo
+      talk11:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "MongoDB replication explained"
+        talk_description: "Per le sue funzionalità e la sua flessibilità Mongo è uno dei database preferiti da chi pratica DevOps. Inoltre, grazie ai replica set, mettere in produzione un cluster di più istanze per ottenere un database ridondante ad alta affidabilità (HA) richiede pochissimo sforzo. Ma sappiamo veramente cosa succede quando i nostra dati sono replicati? Siamo sicuri che quando un dato è stato 'scritto' è anche stato replicato? Possiamo dire con certezza che tutti i dati letti sono dati sicuri? E se un nodo va in crash, il sistema continua sempre a funzionare? In questo talk scopriremo come funziona un replica set di Mongo e l'impatto che questo ha sulle nostre applicazioni. Capiremo come funziona l'algoritmo di consenso distribuito Raft e come è stato modificato da Mongo per implementare la replicazione dei dati. Infine vedremo come cambiare la configurazione di Mongo in modo da scegliere comportamento. Attenzione: il CAP theorem è sempre in agguato!"
+        talk_video_url:
+        speakers:
+          speaker_1: *alessandro
+      talk12:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Kubernetes as a platform Vs. Kubernetes as an API"
+        talk_description: "	Se chiedete a 100 persone cosa e' Kubernetes otterrete 100 diverse risposte. Kubernetes e' un orchestratore di container ma puo' anche essere un sistema di controllo e riconciliazione globale dello stato della vostra infrastruttura IT. In questo talk ripercorreremo brevemente questi vari casi d'uso per poi addentrarci in uno specifico esempio di utilizzo di Kubernetes come API di un diverso orchestratotore di container. L'obiettivo di questa sessione e' di dimostrare come Kubernetes, all'estremo, possa delegare anche l'esecuzione di container e come questo possa semplificare la gestione del vostro cluster."
+        talk_video_url:
+        speakers:
+          speaker_1: *massimo
+      talk13:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "A journey to the Internal Developer Platform"
+        talk_description: "During the talk we will describe the Yoox Net-A-Porter journey to the implementation of an Internal Developer Platform to fulfil the needs for a large number of development teams in a hybrid scenario (cloud + on-prem), working on different languages and having application running on different runtime: VM, serverless, kubernetes. During the talk we will also provide an overview on what is Platform Engineering and which are the goals for Platform engineering."
+        talk_video_url:
+        speakers:
+          speaker_1: *leonardo
+      # talk14:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: "Keeping your containers up-to-date and secure is a challenging and never-ending process. Make it reliable and quick with cloud-native Buildpacks!"
+      #   talk_description: "How frightened are you if a CVE slips through the cracks? How many of your deployments are delayed due to roadblocks from security or audit departments? How much time do you spend remediating CVEs? How much control do you have over the dependencies used to build apps? With a 300% increase in software supply chain attacks year over year, no company can avoid adopting a security-first mindset at every moment of the path to production. Wouldn't it be great to automate your build process and respond to CVEs in less than 48 hours, repatching thousands of applications through to production with zero downtime? Let's see together how to exploit cloud-native Buildpacks to develop a Secure Software Supply Chain that makes this possible and is loved by Developers and Operations alike! Join me for a session on how to build a Secure Software Supply Chain which works for your company; we'll talk through the concepts, best practices and some gotchas you should be aware of."
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *chiara
+      # talk15:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T09:30+02:00
+      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *SPEAKER
+      talk16:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "From source code to the Cloud"
+        talk_description: "The journey to Cloud-Native application is a great but winding road! Especially in medium and big-sized companies where some applications are moving from traditional architecture to microservices, the effort in terms of technologies, people, and organization could be very high and sometimes it discourages the change to new development models and platforms. The CI/CD automation and all the DevOps tools are the keys to addressing this change and overcoming the development break-even point between the increase of application production and development that respect security, compliance, best practices,... As InfoCert we implemented a set of automation tools able to give every developer and Operator the ability to choose the proper environment and infrastructures elements without waiting for approval processes and keeping security and governance. So, in this session, I’ll show how we're handling the application deployment to Kubernetes clusters and how we’re improving code production using Visual Studio Devcontainer, and implementing a NoOPS pipeline able to test and release applications based on microservices or serverless functions."
+        talk_video_url:
+        speakers:
+          speaker_1: *lino
+      talk17:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Scaling Kubernetes to thousand of Control Planes	"
+        talk_description: "This talk is the knowledge share of the rationale behind the KubeInception, a paradigm shift in managing Kubernetes clusters at scale, constiting in running containerized control plane components in a management cluster. This brings challenges, considerations, and a bit of 'madness' in a such extreme implementation, although this shouldn't be nothing new to us, considered the current state of art in the Kubernetes setup: let's discover it together why!"
+        talk_video_url:
+        speakers:
+          speaker_1: *dario
+      # talk18:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: "ZeroTurnaround CICD pipelines as Code with Dagger and Argo"
+      #   talk_description: "Dagger è la nuova avventura del fondatore di Docker con l'intento di semplificare la gestione della CI/CD. Per creare, testare e distribuire continuamente il proprio software, gli sviluppatori hanno bisogno di una pipeline che faccia da collante a un numero sempre maggiore di strumenti. Vi mostreremo come integrare Dagger con Argo per costruire una piattaforma di CI/CD che permetta non solo di condividere frammenti riutilizzabili, ma di eseguire le pipeline ovunque lo possano i container. Non mancherà una dimostrazione pratica di un servizio Go su K8s."
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *alvise
