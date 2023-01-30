@@ -47,7 +47,7 @@ workshops:
     trailer: false
     trailer_url: ""
     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-    teacher_title: "Docente"
+    teacher_title: "Docenti"
     teachers:
       teacher_1:
         teacher_name: "Gianluca Padovani"
@@ -57,6 +57,12 @@ workshops:
         Coautore di <a href='https://leanpub.com/cronache-di-domain-driven-design'>'Cronache di Domain-Driven Design'.</a>"
         pic_filename: "gianluca-padovani.jpg"
         teacher_role: "Founder e CTO"
+        teacher_org: "Coders51"
+      teacher_2:
+        teacher_name: "Emilio Junior	Francischetti"
+        teacher_bio: "Appassionato di sviluppo software e automazione, amo prendere dei bei monoliti, grossi, super accoppiati e ovviamente senza tests, per poi trasformarli in applicazione cloud native in salsa TDD, DDD, CQRS, Event Sorcing e ovviamente su Kubernetes. Mi definisco quindi un Restauratore Software."
+        pic_filename: "emiliojunior-francischetti.png"
+        teacher_role: "Software Engineer"
         teacher_org: "Coders51"
     topics_title: "Programma"
     topics:
@@ -218,19 +224,19 @@ workshops:
       teacher_1:
         teacher_name: "Ruggero Citterio"
         teacher_bio: "Aiuto i nostri clienti nell’epocale passaggio dalla virtualizzazione alla containerizzazione attraverso la modernizzazione applicativa."
-        pic_filename: "ruggero-citterio.png"
+        pic_filename: "ruggero-citterio.jpg"
         teacher_role: "Solution Engineer"
         teacher_org: "VMware Tanzu"
       teacher_2:
         teacher_name: "Carlo Pulcini"
         teacher_bio: ""
-        pic_filename: "carlo-pulcini.png"
+        pic_filename: "carlo-pulcini.jpg"
         teacher_role: "Solution Engineer"
         teacher_org: "VMware Tanzu"
       teacher_3:
         teacher_name: "Roberto Colella"
         teacher_bio: ""
-        pic_filename: "roberto-colella.png"
+        pic_filename: "roberto-colella.jpg"
         teacher_role: "Solution Engineer"
         teacher_org: "VMware Tanzu"
     topics_title: "Programma: vedremo come"

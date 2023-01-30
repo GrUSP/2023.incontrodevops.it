@@ -5,10 +5,22 @@ sponsors_block_title: "Grazie al supporto di"
 #    logo_filename: ""
 #    site_url: ""
 diamond:
-  sponsor1:
+  # sponsor1:
+  #   name: "Accenture"
+  #   logo_filename: ""
+  #   site_url: ""
+  # sponsor2:
+  #   name: "Couchbase"
+  #   logo_filename: "couchbase.png"
+  #   site_url: "https://www.couchbase.com/"
+  sponsor3:
     name: "SIGHUP"
     logo_filename: "sighup.svg"
     site_url: "https://sighup.io/"
+  sponsor4:
+    name: "VMware Tanzu"
+    logo_filename: "vmware-tanzu.svg"
+    site_url: "https://tanzu.vmware.com/"
 platinum:
   sponsor1:
     name: "biodec"
@@ -44,11 +56,11 @@ silver:
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# bronze:
-#   sponsor2:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+bronze:
+  sponsor2:
+    name: "Clastix"
+    logo_filename: "clastix.svg"
+    site_url: "https://clastix.io/"
 # diversity:
 #   sponsor1:
 #     name: "S"

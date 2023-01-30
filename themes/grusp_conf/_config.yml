@@ -6,12 +6,12 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
-#  talks_speakers: talk & speaker
+  talks_speakers: talk & speaker
  # schedule: schedule
-  sponsor: sponsor
   # scommentare per generare pagina
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
+  sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:

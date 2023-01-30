@@ -4,15 +4,13 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-# speaker_1: &luca
-#   speaker_in_speaker_lists: true
-#   speaker_name: Luca Barzè
-#   speaker_pic_filename:
-#   speaker_role: ""
-#   speaker_bio: ""
-#   speaker_github_url: ""
-#   speaker_twitter_url: "https://twitter.com/"
-#   is_mc: false
+speaker_1: &luca
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Barzè
+  speaker_pic_filename: luca-barze.png
+  speaker_role: "Presales Engineer @ SUSE"
+  speaker_bio: "Luca Barzè è un presales engineer di SUSE, l'azienda che sviluppa, fra le altre cose SUSE Linux e Rancher. Gli piace raccontare le cose che ha capito, soprattutto riguardo il mondo cloud-native."
+  is_mc: false
 # speaker_2: &lars
 #   speaker_in_speaker_lists: true
 #   speaker_name: Lars Bendix
@@ -31,14 +29,23 @@ speaker_3: &marcello
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/2autunni"
   is_mc: false
-speaker_4: &giuseppe
+speaker_4: &monica
+  speaker_in_speaker_lists: true
+  speaker_name: Monica Colangelo
+  speaker_pic_filename: monica-colangelo.png
+  speaker_role: "Cloud Architect @ AWS Competence Center NTT DATA Italia"
+  speaker_bio: "Monica è una Cloud Architect, esperta di Infrastructure as Code e DevOps, e non fa altro che automatizzare tutto ciò che le capita a tiro; ha iniziato 15 anni fa e non si è ancora stancata."
+  speaker_github_url: "https://github.com/theonlymonica"
+  speaker_twitter_url: "https://twitter.com/monicaontech"
+  is_mc: false
+speaker_5: &giuseppe
   speaker_in_speaker_lists: true
   speaker_name: Giuseppe Cozzolino
   speaker_pic_filename: giuseppe-cozzolino.png
   speaker_role: "Presales Engineer @ SUSE"
   speaker_bio: "Giuseppe is a Presales Engineer working every day with most of the cloud native solutions. He is working in the IT from 10 years starting as a developer. He is dad since May 2021 with the gym and cooking passion."
   is_mc: false
-speaker_5: &francesco
+speaker_6: &francesco
   speaker_in_speaker_lists: true
   speaker_name: Francesco Degrassi
   speaker_pic_filename: francesco-degrassi.png
@@ -48,7 +55,7 @@ speaker_5: &francesco
   speaker_github_url: "https://github.com/EdMcBane"
   speaker_twitter_url: "https://twitter.com/EdMcBane"
   is_mc: false
-speaker_6: &emiliojunior
+speaker_7: &emiliojunior
   speaker_in_speaker_lists: true
   speaker_name: Emilio Junior	Francischetti
   speaker_pic_filename: emiliojunior-francischetti.png
@@ -56,7 +63,7 @@ speaker_6: &emiliojunior
   speaker_bio: "Appassionato di sviluppo software e automazione, amo prendere dei bei monoliti, grossi, super accoppiati e ovviamente senza tests, per poi trasformarli in applicazione cloud native in salsa TDD, DDD, CQRS, Event Sorcing e ovviamente su Kubernetes. Mi definisco quindi un Restauratore Software."
   speaker_github_url: "https://github.com/ejf-coders51"
   is_mc: false
-speaker_7: &giovanni
+speaker_8: &giovanni
   speaker_in_speaker_lists: true
   speaker_name: Giovanni Galloro
   speaker_pic_filename: giovanni-galloro.png
@@ -65,7 +72,7 @@ speaker_7: &giovanni
   speaker_github_url: "https://github.com/ggalloro"
   speaker_twitter_url: "https://twitter.com/ggalloro"
   is_mc: false
-# speaker_8: &davide
+# speaker_9: &davide
 #   speaker_in_speaker_lists: true
 #   speaker_name: Davide Imola
 #   speaker_pic_filename: davide-imola.png
@@ -74,7 +81,7 @@ speaker_7: &giovanni
 #   speaker_github_url: ""
 #   speaker_twitter_url: ""
 #   is_mc: false
-speaker_9: &fabioalessandro
+speaker_10: &fabioalessandro
   speaker_in_speaker_lists: true
   speaker_name: Fabio Alessandro Locati
   speaker_pic_filename: fabioalessandro-locati.png
@@ -82,7 +89,7 @@ speaker_9: &fabioalessandro
   speaker_bio: "Fabio Alessandro Locati - commonly known as Fale - is an EMEA Associate Principal Solutions Architect at Red Hat, public speaker, author, and Open Source contributor. His primary areas of expertise are Linux, automation, security, and cloud technologies. Fale has more than 15 years of working experience in IT, with many of them spent consulting for many companies, including dozens of Fortune 500 companies. Fale has written 'Practical Ansible 2', 'Learning Ansible 2.7', 'Learning Ansible 2', 'OpenStack Cloud Security' and has been part of the review process of multiple books."
   speaker_github_url: "https://github.com/fale"
   is_mc: false
-speaker_10: &paolo
+speaker_11: &paolo
   speaker_in_speaker_lists: true
   speaker_name: Paolo Mainardi
   speaker_pic_filename: paolo-mainardi.png
@@ -91,7 +98,7 @@ speaker_10: &paolo
   speaker_github_url: "https://github.com/paolomainardi"
   speaker_twitter_url: "https://twitter.com/paolomainardi"
   is_mc: false
-speaker_11: &alessandro
+speaker_12: &alessandro
   speaker_in_speaker_lists: true
   speaker_name: Alessandro Miliucci
   speaker_pic_filename: alessandro-miliucci.png
@@ -99,7 +106,7 @@ speaker_11: &alessandro
   speaker_bio: "Alessandro Miliucci è uno sviluppatore attivo nel settore delle startup e del fintech. Nel 2014 ha collaborato alla creazione di Hype, la prima challenger bank italiana. Qualche anno dopo, in cerca di una sfida ancora più grande, ha co-fondato e creato Vidra, una piattaforma SaaS di ecommerce dove ha ricoperto il ruolo di CTO. Ora che la startup è stata acquisita si è unito ad Axerve per continuare il lavoro fatto finora. Un suo libro su React è in uscita nel 2023."
   speaker_github_url: "https://github.com/lifeisfoo"
   is_mc: false
-speaker_12: &massimo
+speaker_13: &massimo
   speaker_in_speaker_lists: true
   speaker_name: Massimo Re Ferre'
   speaker_pic_filename: massimo-referre.png
@@ -108,7 +115,7 @@ speaker_12: &massimo
   speaker_github_url: "https://github.com/mreferre"
   speaker_twitter_url: "https://twitter.com/mreferre"
   is_mc: false
-speaker_13: &leonardo
+speaker_14: &leonardo
   speaker_in_speaker_lists: true
   speaker_name: Leonardo Romanato
   speaker_pic_filename: leonardo-romanato.png
@@ -116,24 +123,18 @@ speaker_13: &leonardo
   speaker_bio: "I love to dig into our internal customers problems and scale our DevOps Platform to help solve them with best of breed tools and technologies. To achieve the result I focus on the outcomes, building skilled teams and focusing on measuring our results and ensuring to have in place a frequent feedback loop with our customers. I had been a guitar player for a long time (15+ years), touring quite often in Northern Italy and Europe: this helped me a lot developing my creative side but also my ability to stay on a stage and face an audience. I am also a sport fanatic, especially when it comes to outdoor sports. They helped you to learn to be resilient, which in my point of view is a key factor to succeed in today's business world."
   speaker_twitter_url: "https://twitter.com/F3ar873"
   is_mc: false
-# speaker_14: &chiara
-#   speaker_in_speaker_lists: true
-#   speaker_name: Chiara Salvatore
-#   speaker_pic_filename: .jpg
-#   speaker_role: ""
-#   speaker_bio: ""
-#   speaker_github_url: "@chiarasalvatore"
-#   speaker_twitter_url: "@chiarasalvatore"
-#   is_mc: false
-# speaker_15: &SPEAKER
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role: ""
-#   speaker_bio: ""
-#   speaker_github_url: ""
-#   speaker_twitter_url: ""
-#   is_mc: false
+speaker_15: &chiara
+  speaker_in_speaker_lists: true
+  speaker_name: Chiara Salvatore
+  speaker_pic_filename: chiara-salvatore.png
+  speaker_role: "Senior Solutions Engineer @ VMware"
+  speaker_bio: "I have been working for VMware since June 2022 as a Senior Solutions Engineer in the Modern Application Platform BU for EMEA global accounts and telcos.
+As a Solutions Engineer, I help customers in their journey to modernising applications and infrastructure, innovating and quickly growing their business on any and many clouds.
+Before joining VMware, for over 15 years, I held various roles in Solutions Architecture, Engineering, DevOps, and Cloud Infrastructure Operations, building strong expertise across the entire stack, from data centres to cloud infrastructure, containers, and applications.
+I love to experience and learn about different cultures and countries by reading and travelling as much as possible. When I need to recharge, I like to run and wander in nature."
+  speaker_github_url: "https://github.com/chiarasalvatore"
+  speaker_twitter_url: "https://twitter.com/chiarasalvatore"
+  is_mc: false
 speaker_16: &lino
   speaker_in_speaker_lists: true
   speaker_name: Lino Telera
@@ -153,38 +154,38 @@ speaker_17: &dario
   speaker_github_url: "https://github.com/prometherion"
   speaker_twitter_url: "https://twitter.com/tranchitellad"
   is_mc: false
-# speaker_18: &alvise
-#   speaker_in_speaker_lists: true
-#   speaker_name: Alvise Vitturi
-#   speaker_pic_filename: alvise-vitturi.png
-#   speaker_role: "Senior DevOps Engineer"
-#   speaker_bio: "Ho iniziato la mia carriera come sviluppatore software per poi migrare verso il mondo DevOps.
-# Sono ossessionato dal 'containerizzare' qualsiasi applicazione e sono un amante della CI/CD.
-# Il mio interesse principale è capire come progettare una piattaforma per sviluppatori, per massimizzare il valore che i team di sviluppo possano offrire.
-# Non ho idee originali, faccio un ottimo lavoro nel riconoscere e impacchettare le idee altrui."
-#   speaker_github_url: "https://github.com/Alvise88"
-#   speaker_twitter_url: ""
-#   is_mc: false
+speaker_18: &alvise
+  speaker_in_speaker_lists: true
+  speaker_name: Alvise Vitturi
+  speaker_pic_filename: alvise-vitturi.png
+  speaker_role: "Senior DevOps Engineer @ Mailup"
+  speaker_bio: "Ho iniziato la mia carriera come sviluppatore software per poi migrare verso il mondo DevOps.
+Sono ossessionato dal 'containerizzare' qualsiasi applicazione e sono un amante della CI/CD.
+Il mio interesse principale è capire come progettare una piattaforma per sviluppatori, per massimizzare il valore che i team di sviluppo possano offrire.
+Non ho idee originali, faccio un ottimo lavoro nel riconoscere e impacchettare le idee altrui."
+  speaker_github_url: "https://github.com/Alvise88"
+  speaker_twitter_url: ""
+  is_mc: false
 
 speakers:
-#  speaker_1: *luca
+  speaker_1: *luca
 #  speaker_2: *lars
   speaker_3: *marcello
-  speaker_4: *giuseppe
-  speaker_5: *francesco
-  speaker_6: *emiliojunior
-  speaker_7: *giovanni
-#  speaker_8: *davide
-  speaker_9: *fabioalessandro
-  speaker_10: *paolo
-  speaker_11: *alessandro
-  speaker_12: *massimo
-  speaker_13: *leonardo
- # speaker_14: *chiara
- # speaker_15: *SPEAKER
+  speaker_4: *monica
+  speaker_5: *giuseppe
+  speaker_6: *francesco
+  speaker_7: *emiliojunior
+  speaker_8: *giovanni
+#  speaker_9: *davide
+  speaker_10: *fabioalessandro
+  speaker_11: *paolo
+  speaker_12: *alessandro
+  speaker_13: *massimo
+  speaker_14: *leonardo
+  speaker_15: *chiara
   speaker_16: *lino
   speaker_17: *dario
- # speaker_18: *alvise
+  speaker_18: *alvise
 
 tracks:
   track_1: &track_1
@@ -228,17 +229,16 @@ days:
         talk_title: "Happy Hour"
         service_icon: "glass"
 
-      # talk
-      # talk1:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
-      #   talk_title: "Kubernetes per l'Edge Computing: Una soluzione efficace	"
-      #   talk_description: "L'edge computing è un aspetto sempre più importante della digital transformation, che consente alle organizzazioni di avvicinare contenuti, dati ed elaborazioni alle applicazioni, agli oggetti e agli utenti che li consumano. Kubernetes è un componente chiave di questo processo, in quanto fornisce un framework coerente per lo sviluppo e la distribuzione delle applicazioni. Tuttavia, la gestione dell'infrastruttura per l'edge computing può essere complessa, poiché si devono considerare questioni come la sicurezza, la scalabilità e la manutenzione. In questo intervento tecnico presenteremo una soluzione coerente per la gestione dell'infrastruttura di edge computing utilizzando strumenti come K3s, SLE Micro, Elemental e Rancher. Dimostreremo come questi strumenti possono aiutare ad affrontare le problematiche più frequenti e consentire alle organizzazioni di sfruttare i vantaggi dell'edge computing."
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *luca
+      talk1:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Kubernetes per l'Edge Computing: Una soluzione efficace"
+        talk_description: "L'edge computing è un aspetto sempre più importante della digital transformation, che consente alle organizzazioni di avvicinare contenuti, dati ed elaborazioni alle applicazioni, agli oggetti e agli utenti che li consumano. Kubernetes è un componente chiave di questo processo, in quanto fornisce un framework coerente per lo sviluppo e la distribuzione delle applicazioni. Tuttavia, la gestione dell'infrastruttura per l'edge computing può essere complessa, poiché si devono considerare questioni come la sicurezza, la scalabilità e la manutenzione. In questo intervento tecnico presenteremo una soluzione coerente per la gestione dell'infrastruttura di edge computing utilizzando strumenti come K3s, SLE Micro, Elemental e Rancher. Dimostreremo come questi strumenti possono aiutare ad affrontare le problematiche più frequenti e consentire alle organizzazioni di sfruttare i vantaggi dell'edge computing."
+        talk_video_url:
+        speakers:
+          speaker_1: *luca
       # talk2:
       #   item_type: "talk"
       #   track: *track_1
@@ -262,6 +262,16 @@ days:
       talk4:
         item_type: "talk"
         track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Come avverare i tuoi sogni di 100% uptime con la strategia blue/green"
+        talk_description: "Vi è mai capitato di subire un downtime durante i rilasci del vostro software? Siete alla ricerca di modi per ridurre al minimo i rischi legati a un aggiornamento e contemporaneamente massimizzare l'uptime? Se è così, addentratevi con me in un mondo... blue/green! In questo talk esplorerò in dettaglio il concetto di blue/green strategy per i rilasci, e mostrerò anche come l'ho implementato in un caso d'uso reale in un contesto non convenzionale, con la flessbilità e la praticità di strumenti messi a disposizione da AWS."
+        talk_video_url:
+        speakers:
+          speaker_1: *monica
+      talk5:
+        item_type: "talk"
+        track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Sfruttare i vantaggi dell'HCI cloud-native con Harvester"
@@ -269,7 +279,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *giuseppe
-      talk5:
+      talk6:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
@@ -279,7 +289,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *francesco
-      talk6:
+      talk7:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -289,7 +299,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *emiliojunior
-      talk7:
+      talk8:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
@@ -299,7 +309,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *giovanni
-      # talk8:
+      # talk9:
       #   item_type: "talk"
       #   track: *track_1
       #   # start_datetime: 2022-05-19T10:25+02:00
@@ -309,7 +319,7 @@ days:
       #   talk_video_url:
       #   speakers:
       #     speaker_1: *davide
-      talk9:
+      talk10:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
@@ -319,7 +329,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *fabioalessandro
-      talk10:
+      talk11:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -329,7 +339,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *paolo
-      talk11:
+      talk12:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
@@ -339,7 +349,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *alessandro
-      talk12:
+      talk13:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -349,7 +359,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *massimo
-      talk13:
+      talk14:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
@@ -359,26 +369,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *leonardo
-      # talk14:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   # start_datetime: 2022-05-19T10:25+02:00
-      #   # end_datetime: 2022-05-19T11:05+02:00
-      #   talk_title: "Keeping your containers up-to-date and secure is a challenging and never-ending process. Make it reliable and quick with cloud-native Buildpacks!"
-      #   talk_description: "How frightened are you if a CVE slips through the cracks? How many of your deployments are delayed due to roadblocks from security or audit departments? How much time do you spend remediating CVEs? How much control do you have over the dependencies used to build apps? With a 300% increase in software supply chain attacks year over year, no company can avoid adopting a security-first mindset at every moment of the path to production. Wouldn't it be great to automate your build process and respond to CVEs in less than 48 hours, repatching thousands of applications through to production with zero downtime? Let's see together how to exploit cloud-native Buildpacks to develop a Secure Software Supply Chain that makes this possible and is loved by Developers and Operations alike! Join me for a session on how to build a Secure Software Supply Chain which works for your company; we'll talk through the concepts, best practices and some gotchas you should be aware of."
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *chiara
-      # talk15:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *SPEAKER
+      talk15:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Keeping your containers up-to-date and secure is a challenging and never-ending process. Make it reliable and quick with cloud-native Buildpacks!"
+        talk_description: "How frightened are you if a CVE slips through the cracks? How many of your deployments are delayed due to roadblocks from security or audit departments? How much time do you spend remediating CVEs? How much control do you have over the dependencies used to build apps? With a 300% increase in software supply chain attacks year over year, no company can avoid adopting a security-first mindset at every moment of the path to production. Wouldn't it be great to automate your build process and respond to CVEs in less than 48 hours, repatching thousands of applications through to production with zero downtime? Let's see together how to exploit cloud-native Buildpacks to develop a Secure Software Supply Chain that makes this possible and is loved by Developers and Operations alike! Join me for a session on how to build a Secure Software Supply Chain which works for your company; we'll talk through the concepts, best practices and some gotchas you should be aware of."
+        talk_video_url:
+        speakers:
+          speaker_1: *chiara
       talk16:
         item_type: "talk"
         track: *track_1
@@ -399,13 +399,13 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *dario
-      # talk18:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   # start_datetime: 2022-05-19T10:25+02:00
-      #   # end_datetime: 2022-05-19T11:05+02:00
-      #   talk_title: "ZeroTurnaround CICD pipelines as Code with Dagger and Argo"
-      #   talk_description: "Dagger è la nuova avventura del fondatore di Docker con l'intento di semplificare la gestione della CI/CD. Per creare, testare e distribuire continuamente il proprio software, gli sviluppatori hanno bisogno di una pipeline che faccia da collante a un numero sempre maggiore di strumenti. Vi mostreremo come integrare Dagger con Argo per costruire una piattaforma di CI/CD che permetta non solo di condividere frammenti riutilizzabili, ma di eseguire le pipeline ovunque lo possano i container. Non mancherà una dimostrazione pratica di un servizio Go su K8s."
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *alvise
+      talk18:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "ZeroTurnaround CICD pipelines as Code with Dagger and Argo"
+        talk_description: "Dagger è la nuova avventura del fondatore di Docker con l'intento di semplificare la gestione della CI/CD. Per creare, testare e distribuire continuamente il proprio software, gli sviluppatori hanno bisogno di una pipeline che faccia da collante a un numero sempre maggiore di strumenti. Vi mostreremo come integrare Dagger con Argo per costruire una piattaforma di CI/CD che permetta non solo di condividere frammenti riutilizzabili, ma di eseguire le pipeline ovunque lo possano i container. Non mancherà una dimostrazione pratica di un servizio Go su K8s."
+        talk_video_url:
+        speakers:
+          speaker_1: *alvise
