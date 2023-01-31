@@ -134,9 +134,9 @@ workshops:
     teacher_title: "Docente"
     teachers:
       teacher_1:
-        teacher_name: "Giuseppe Rotella"
-        teacher_bio: "Atlassian Certified Expert e Devops Engineer con esperienza nella progettazione, configurazione e distribuzione di soluzioni Atlassian e Devops. Amante della tecnologia e delle innovazioni, a cui piace confrontarsi e condividere le informazioni quotidianamente. Affascinato dall’evoluzione del mondo DevOps e dal progresso tecnologico."
-        pic_filename: giuseppe-rotella.jpeg
+        teacher_name: "Federico Antoniazzi"
+        teacher_bio: "Professionalmente giovane DevOps Engineer presso SIGHUP, appassionato di tecnologie Cloud Native. Quando non uso il mio piccolo homelab per sperimentare, mi dedico alla musica suonando la tromba e l'eufonio."
+        pic_filename: federico-antoniazzi.png
         teacher_role: "DevOps Engineer"
         teacher_org: "SIGHUP"
     topics_title: "Programma"
