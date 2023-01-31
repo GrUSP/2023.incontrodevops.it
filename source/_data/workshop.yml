@@ -60,7 +60,7 @@ workshops:
         teacher_org: "Coders51"
       teacher_2:
         teacher_name: "Emilio Junior	Francischetti"
-        teacher_bio: "Appassionato di sviluppo software e automazione, amo prendere dei bei monoliti, grossi, super accoppiati e ovviamente senza tests, per poi trasformarli in applicazione cloud native in salsa TDD, DDD, CQRS, Event Sorcing e ovviamente su Kubernetes. Mi definisco quindi un Restauratore Software."
+        teacher_bio: "Appassionato di sviluppo software e automazione, amo prendere dei bei monoliti, grossi, super accoppiati e ovviamente senza tests, per poi trasformarli in applicazioni cloud native in salsa TDD, DDD, CQRS, Event Sourcing e ovviamente su Kubernetes. Mi definisco quindi, un Restauratore Software."
         pic_filename: "emiliojunior-francischetti.png"
         teacher_role: "Software Engineer"
         teacher_org: "Coders51"
