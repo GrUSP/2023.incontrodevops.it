@@ -72,15 +72,15 @@ speaker_8: &giovanni
   speaker_github_url: "https://github.com/ggalloro"
   speaker_twitter_url: "https://twitter.com/ggalloro"
   is_mc: false
-# speaker_9: &davide
-#   speaker_in_speaker_lists: true
-#   speaker_name: Davide Imola
-#   speaker_pic_filename: davide-imola.png
-#   speaker_role: "DevOps Engineer @ RedCarbon - Community Co-Organizer @ Schrödinger Hat"
-#   speaker_bio: "Davide was born in 1995. He started coding at 12 when he asked to receive his first personal computer as a gift for his first communion. He is currently a DevOps Engineer at RedCarbon. He loves Node.js, Golang, Cloud-Native, and Kubernetes, he's one of the co-organizers of <a href='https://schrodinger-hat.it'>an Italian Community based on Open Source.</a>"
-#   speaker_github_url: ""
-#   speaker_twitter_url: ""
-#   is_mc: false
+speaker_9: &davide
+  speaker_in_speaker_lists: true
+  speaker_name: Davide Imola
+  speaker_pic_filename: davide-imola.png
+  speaker_role: "DevOps Engineer @ RedCarbon"
+  speaker_bio: "Davide was born in 1995. He started coding at 12 when he asked to receive his first personal computer as a gift for his first communion. He is currently a DevOps Engineer at RedCarbon. He loves Node.js, Golang, Cloud-Native, and Kubernetes, he's one of the co-organizers of <a href='https://schrodinger-hat.it'>an Italian Community based on Open Source.</a>"
+  speaker_github_url: "https://github.com/davideimola"
+  speaker_twitter_url: "https://twitter.com/DavideImola"
+  is_mc: false
 speaker_10: &fabioalessandro
   speaker_in_speaker_lists: true
   speaker_name: Fabio Alessandro Locati
@@ -176,7 +176,7 @@ speakers:
   speaker_6: *francesco
   speaker_7: *emiliojunior
   speaker_8: *giovanni
-#  speaker_9: *davide
+  speaker_9: *davide
   speaker_10: *fabioalessandro
   speaker_11: *paolo
   speaker_12: *alessandro
@@ -309,16 +309,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *giovanni
-      # talk9:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   # start_datetime: 2022-05-19T10:25+02:00
-      #   # end_datetime: 2022-05-19T11:05+02:00
-      #   talk_title: "How to GitOps your Kubernetes cluster with Flux"
-      #   talk_description: "Gestire un cluster Kubernetes può risultare complesso, soprattutto nella gestione dei rilasci delle applicazioni e l'aggiornamento dell'infrastruttura. Per questo capiremo i pro nel passare a una metodologia GitOps per il mantenimento della propria infrastruttura e proveremo a sporcarci le mani automatizzando i vari processi tramite Flux, uno degli ultimi progetti CNCF Graduated!"
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *davide
+      talk9:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "How to GitOps your Kubernetes cluster with Flux"
+        talk_description: "Gestire un cluster Kubernetes può risultare complesso, soprattutto nella gestione dei rilasci delle applicazioni e l'aggiornamento dell'infrastruttura. Per questo capiremo i pro nel passare a una metodologia GitOps per il mantenimento della propria infrastruttura e proveremo a sporcarci le mani automatizzando i vari processi tramite Flux, uno degli ultimi progetti CNCF Graduated!"
+        talk_video_url:
+        speakers:
+          speaker_1: *davide
       talk10:
         item_type: "talk"
         track: *track_1

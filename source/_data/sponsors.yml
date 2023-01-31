@@ -31,6 +31,10 @@ platinum:
     logo_filename: "digital_ai.svg"
     site_url: "http://www.digital.ai"
   sponsor3:
+    name: "OptionFactory"
+    logo_filename: "optionfactory.svg"
+    site_url: "www.optionfactory.net"
+  sponsor4:
     name: "OVHcloud"
     logo_filename: "ovhcloud.svg"
     site_url: "https://www.ovhcloud.com/en/public-cloud/kubernetes/"
@@ -61,6 +65,10 @@ bronze:
     name: "Clastix"
     logo_filename: "clastix.svg"
     site_url: "https://clastix.io/"
+  sponsor3:
+    name: "NTT DATA Italia"
+    logo_filename: "nttdata.svg"
+    site_url: "https://it.nttdata.com/"
 # diversity:
 #   sponsor1:
 #     name: "S"
