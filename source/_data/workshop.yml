@@ -123,10 +123,8 @@ workshops:
     # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
     description_long:
       "Il workshop è rivolto a developer e software engineer che vogliono approfondire le conoscenze di Kubernetes ed imparare le best-practice per il deployment di architetture monolitiche e/o a microservizi.
-      <br><br  />
-      Nella prima parte del workshop, partiremo dalle <strong>basi di Kubernetes, vedendo i principi fondamentali ed il funzionamento dei componenti core.</strong>
-      Nella seconda parte ci concentreremo su argomenti avanzati quali le <strong>best practices di deployment, il troubleshooting applicativo, la gestione dei manifests (con Kustomize ed Helm), ed infine, le pipeline di continuous integration e continuous delivery.</strong>
-      <br><br  />"
+      <br><br  />Durante il workshop affronteremo le basi di Kubernetes e il funzionamento dei componenti core, per poi proseguire con argomenti avanzati come best practices per il deployment e il troubleshooting applicativo.
+      In aggiunta, verrà fornita una panoramica riguardo la gestione dei manifest con Helm e Kustomize oppure sulle pipeline di CI/CD, GitOps e integrazione con Kubernetes.<br><br  />"
     # video trailer?
     trailer: false
     trailer_url: ""
@@ -146,8 +144,9 @@ workshops:
       - "Deployment di un’applicazione con architettura three-tier su Kubernetes;"
       - "Troubleshooting e debugging applicativo;"
       - "Best practices per i deployment di applicazioni;"
-      - "Gestione dei manifests con Kustomize e Helm;"
-      - "Introduzione a pipeline di CI/CD e GitOps."
+      - "Vedremo inoltre, a richiesta, in chiusura della giornata:"
+      - "- Gestione dei manifests con Kustomize e Helm;"
+      - "- Introduzione a pipeline di CI/CD e GitOps."
     addressees_title: "Cosa ottieni frequentando il workshop"
     addressees_description: "Grazie a questo workshop:
     <ul>
@@ -157,12 +156,12 @@ workshops:
     <li>Imparerai le best practice per il deployment delle tue architetture software.</li>
     </ul><br>"
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Il workshop è di livello introduttivo/base ed è rivolto a developer e software engineer.
+    requirements_description: "Il workshop è introduttivo al mondo Kubernetes ed è rivolto a developer e software engineer.
     <br><br  /> Sono richieste:
     <ul>
     <li>Familiarità con ambiente Linux/Unix;</li>
-    <li>Esperienza nella scrittura e deploy di microservizi;</li>
-    <li>Conoscenza base di Docker.</li>
+    <li>Esperienza nella scrittura di microservizi;</li>
+    <li>Conoscenza di docker/podman.</li>
     </ul>
     <br><br  /> Per partecipare sono necessari:
     <ul>
