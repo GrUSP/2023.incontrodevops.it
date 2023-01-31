@@ -33,7 +33,7 @@ platinum:
   sponsor3:
     name: "OptionFactory"
     logo_filename: "optionfactory.svg"
-    site_url: "www.optionfactory.net"
+    site_url: "https://www.optionfactory.net"
   sponsor4:
     name: "OVHcloud"
     logo_filename: "ovhcloud.svg"
