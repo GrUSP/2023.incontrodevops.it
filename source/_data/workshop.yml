@@ -151,9 +151,8 @@ workshops:
     addressees_description: "Grazie a questo workshop:
     <ul>
     <li>Diventerai cintura nera di tutti i componenti core per la gestione del lifecycle applicativo;</li>
-    <li>Imparerai ad utilizzare Helm e Kustomize per gestire e distribuire i tuoi applicativi;</li>
-    <li>Imparerai come fare debugging e troubleshooting delle tue applicazioni;</li>
-    <li>Imparerai le best practice per il deployment delle tue architetture software.</li>
+    <li>Imparerai le best practice per il deployment delle tue architetture software;</li>
+    <li>Imparerai come fare debugging e troubleshooting delle tue applicazioni.</li>
     </ul><br>"
     requirements_title: "Requisiti di partecipazione"
     requirements_description: "Il workshop è introduttivo al mondo Kubernetes ed è rivolto a developer e software engineer.

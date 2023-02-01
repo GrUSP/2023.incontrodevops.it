@@ -69,6 +69,10 @@ bronze:
     name: "NTT DATA Italia"
     logo_filename: "nttdata.svg"
     site_url: "https://it.nttdata.com/"
+  sponsor4:
+    name: "Sticker Mule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
 # diversity:
 #   sponsor1:
 #     name: "S"
