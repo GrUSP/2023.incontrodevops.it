@@ -70,7 +70,14 @@ speaker_8: &giovanni
   speaker_github_url: "https://github.com/ggalloro"
   speaker_twitter_url: "https://twitter.com/ggalloro"
   is_mc: false
-speaker_9: &davide
+speaker_9: &andreas
+  speaker_in_speaker_lists: true
+  speaker_name: Andreas Göransson
+  speaker_pic_filename: andreas-goransson.png
+  speaker_role: "Consultant @ QCM, Sweden"
+  speaker_bio: ""
+  is_mc: false
+speaker_10: &davide
   speaker_in_speaker_lists: true
   speaker_name: Davide Imola
   speaker_pic_filename: davide-imola.png
@@ -79,7 +86,7 @@ speaker_9: &davide
   speaker_github_url: "https://github.com/davideimola"
   speaker_twitter_url: "https://twitter.com/DavideImola"
   is_mc: false
-speaker_10: &fabioalessandro
+speaker_11: &fabioalessandro
   speaker_in_speaker_lists: true
   speaker_name: Fabio Alessandro Locati
   speaker_pic_filename: fabioalessandro-locati.png
@@ -87,7 +94,7 @@ speaker_10: &fabioalessandro
   speaker_bio: "Fabio Alessandro Locati - commonly known as Fale - is an EMEA Associate Principal Solutions Architect at Red Hat, public speaker, author, and Open Source contributor. His primary areas of expertise are Linux, automation, security, and cloud technologies. Fale has more than 15 years of working experience in IT, with many of them spent consulting for many companies, including dozens of Fortune 500 companies. Fale has written 'Practical Ansible 2', 'Learning Ansible 2.7', 'Learning Ansible 2', 'OpenStack Cloud Security' and has been part of the review process of multiple books."
   speaker_github_url: "https://github.com/fale"
   is_mc: false
-speaker_11: &paolo
+speaker_12: &paolo
   speaker_in_speaker_lists: true
   speaker_name: Paolo Mainardi
   speaker_pic_filename: paolo-mainardi.png
@@ -96,7 +103,7 @@ speaker_11: &paolo
   speaker_github_url: "https://github.com/paolomainardi"
   speaker_twitter_url: "https://twitter.com/paolomainardi"
   is_mc: false
-speaker_12: &alessandro
+speaker_13: &alessandro
   speaker_in_speaker_lists: true
   speaker_name: Alessandro Miliucci
   speaker_pic_filename: alessandro-miliucci.png
@@ -104,7 +111,7 @@ speaker_12: &alessandro
   speaker_bio: "Alessandro Miliucci è uno sviluppatore attivo nel settore delle startup e del fintech. Nel 2014 ha collaborato alla creazione di Hype, la prima challenger bank italiana. Qualche anno dopo, in cerca di una sfida ancora più grande, ha co-fondato e creato Vidra, una piattaforma SaaS di ecommerce dove ha ricoperto il ruolo di CTO. Ora che la startup è stata acquisita si è unito ad Axerve per continuare il lavoro fatto finora. Un suo libro su React è in uscita nel 2023."
   speaker_github_url: "https://github.com/lifeisfoo"
   is_mc: false
-speaker_13: &massimo
+speaker_14: &massimo
   speaker_in_speaker_lists: true
   speaker_name: Massimo Re Ferre'
   speaker_pic_filename: massimo-referre.png
@@ -113,7 +120,7 @@ speaker_13: &massimo
   speaker_github_url: "https://github.com/mreferre"
   speaker_twitter_url: "https://twitter.com/mreferre"
   is_mc: false
-speaker_14: &leonardo
+speaker_15: &leonardo
   speaker_in_speaker_lists: true
   speaker_name: Leonardo Romanato
   speaker_pic_filename: leonardo-romanato.png
@@ -121,7 +128,7 @@ speaker_14: &leonardo
   speaker_bio: "I love to dig into our internal customers problems and scale our DevOps Platform to help solve them with best of breed tools and technologies. To achieve the result I focus on the outcomes, building skilled teams and focusing on measuring our results and ensuring to have in place a frequent feedback loop with our customers. I had been a guitar player for a long time (15+ years), touring quite often in Northern Italy and Europe: this helped me a lot developing my creative side but also my ability to stay on a stage and face an audience. I am also a sport fanatic, especially when it comes to outdoor sports. They helped you to learn to be resilient, which in my point of view is a key factor to succeed in today's business world."
   speaker_twitter_url: "https://twitter.com/F3ar873"
   is_mc: false
-speaker_15: &chiara
+speaker_16: &chiara
   speaker_in_speaker_lists: true
   speaker_name: Chiara Salvatore
   speaker_pic_filename: chiara-salvatore.png
@@ -133,7 +140,7 @@ I love to experience and learn about different cultures and countries by reading
   speaker_github_url: "https://github.com/chiarasalvatore"
   speaker_twitter_url: "https://twitter.com/chiarasalvatore"
   is_mc: false
-speaker_16: &lino
+speaker_17: &lino
   speaker_in_speaker_lists: true
   speaker_name: Lino Telera
   speaker_pic_filename: lino-telera.png
@@ -143,7 +150,7 @@ speaker_16: &lino
   speaker_github_url: "https://github.com/linotelera"
   speaker_twitter_url: "https://twitter.com/linotelera"
   is_mc: false
-speaker_17: &dario
+speaker_18: &dario
   speaker_in_speaker_lists: true
   speaker_name: Dario Tranchitella
   speaker_pic_filename: dario-tranchitella.png
@@ -152,7 +159,7 @@ speaker_17: &dario
   speaker_github_url: "https://github.com/prometherion"
   speaker_twitter_url: "https://twitter.com/tranchitellad"
   is_mc: false
-speaker_18: &alvise
+speaker_19: &alvise
   speaker_in_speaker_lists: true
   speaker_name: Alvise Vitturi
   speaker_pic_filename: alvise-vitturi.png
@@ -174,16 +181,17 @@ speakers:
   speaker_6: *francesco
   speaker_7: *emiliojunior
   speaker_8: *giovanni
-  speaker_9: *davide
-  speaker_10: *fabioalessandro
-  speaker_11: *paolo
-  speaker_12: *alessandro
-  speaker_13: *massimo
-  speaker_14: *leonardo
-  speaker_15: *chiara
-  speaker_16: *lino
-  speaker_17: *dario
-  speaker_18: *alvise
+  speaker_9: *andreas
+  speaker_10: *davide
+  speaker_11: *fabioalessandro
+  speaker_12: *paolo
+  speaker_13: *alessandro
+  speaker_14: *massimo
+  speaker_15: *leonardo
+  speaker_16: *chiara
+  speaker_17: *lino
+  speaker_18: *dario
+  speaker_19: *alvise
 
 tracks:
   track_1: &track_1
@@ -247,6 +255,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *lars
+          speaker_2: *andreas
       talk3:
         item_type: "talk"
         track: *track_1
