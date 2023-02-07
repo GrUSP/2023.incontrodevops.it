@@ -57,7 +57,7 @@ levels:
     name: Diamond
     amount: 5000
     vat_label: "(+ IVA 22%)"
-    available_slots: 2
+    available_slots: 4
     description_1:
       - "Accesso alla lista dei partecipanti (che hanno dato consenso a condivisione dati)"
     description_2:

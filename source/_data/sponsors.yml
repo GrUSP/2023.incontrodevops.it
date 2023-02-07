@@ -5,14 +5,14 @@ sponsors_block_title: "Grazie al supporto di"
 #    logo_filename: ""
 #    site_url: ""
 diamond:
-  # sponsor1:
-  #   name: "Accenture"
-  #   logo_filename: ""
-  #   site_url: ""
-  # sponsor2:
-  #   name: "Couchbase"
-  #   logo_filename: "couchbase.png"
-  #   site_url: "https://www.couchbase.com/"
+  sponsor1:
+    name: "Accenture"
+    logo_filename: "accenture.svg"
+    site_url: "https://www.accenture.com/it-it/careers"
+  sponsor2:
+    name: "Couchbase"
+    logo_filename: "couchbase.png"
+    site_url: "https://www.couchbase.com/"
   sponsor3:
     name: "SIGHUP"
     logo_filename: "sighup.svg"
@@ -56,10 +56,10 @@ silver:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-#   sponsor6:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+  sponsor2:
+    name: "Madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it/"
 bronze:
   sponsor2:
     name: "Clastix"
