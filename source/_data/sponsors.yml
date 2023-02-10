@@ -38,6 +38,15 @@ platinum:
     name: "OVHcloud"
     logo_filename: "ovhcloud.svg"
     site_url: "https://www.ovhcloud.com/en/public-cloud/kubernetes/"
+  sponsor5:
+    name: "Umana"
+    logo_filename: "umana.png"
+    site_url: "https://www.umana.it/per-le-persone/aree-specialistiche/information-communication-technology/"
+  sponsor6:
+    name: "vianova"
+    logo_filename: "vianova.svg"
+    site_url: "https://www.vianova.it/"
+
 gold:
   sponsor0:
     name: "Daruma"
