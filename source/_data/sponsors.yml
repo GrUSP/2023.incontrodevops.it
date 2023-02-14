@@ -74,10 +74,14 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
 bronze:
-  sponsor2:
+  sponsor1:
     name: "Clastix"
     logo_filename: "clastix.svg"
     site_url: "https://clastix.io/"
+  sponsor2:
+    name: "Coders51"
+    logo_filename: "coders51.svg"
+    site_url: "https://www.coders51.com/"
   sponsor3:
     name: "NTT DATA Italia"
     logo_filename: "nttdata.svg"
