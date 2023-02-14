@@ -81,7 +81,7 @@ levels:
     name: Platinum
     amount: 3000
     vat_label: "(+ IVA 22%)"
-    available_slots: 6
+    available_slots: 7
     description_2:
       - "Stand fisico - piccolo"
       - "Booth virtuale - piccolo"

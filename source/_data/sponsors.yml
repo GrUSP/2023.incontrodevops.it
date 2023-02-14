@@ -31,21 +31,25 @@ platinum:
     logo_filename: "digital_ai.svg"
     site_url: "http://www.digital.ai"
   sponsor3:
+    name: "iGenius"
+    logo_filename: "iGenius.svg"
+    site_url: "https://www.igenius.ai/company"
+  sponsor4:
     name: "OptionFactory"
     logo_filename: "optionfactory.svg"
     site_url: "https://www.optionfactory.net"
-  sponsor4:
+  sponsor5:
     name: "OVHcloud"
     logo_filename: "ovhcloud.svg"
     site_url: "https://www.ovhcloud.com/en/public-cloud/kubernetes/"
-  sponsor5:
+  sponsor6:
     name: "Umana"
     logo_filename: "umana.png"
     site_url: "https://www.umana.it/per-le-persone/aree-specialistiche/information-communication-technology/"
-  sponsor6:
+  sponsor7:
     name: "vianova"
     logo_filename: "vianova.svg"
-    site_url: "https://www.vianova.it/"
+    site_url: "https://www.vianova.it/people/"
 
 gold:
   sponsor0:
