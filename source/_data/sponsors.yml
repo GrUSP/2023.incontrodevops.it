@@ -11,7 +11,7 @@ diamond:
     site_url: "https://www.accenture.com/it-it/careers"
   sponsor2:
     name: "Couchbase"
-    logo_filename: "couchbase.png"
+    logo_filename: "couchbase.svg"
     site_url: "https://www.couchbase.com/"
   sponsor3:
     name: "SIGHUP"
@@ -70,6 +70,10 @@ silver:
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
   sponsor2:
+    name: "Immobiliare"
+    logo_filename: "immobiliare.svg"
+    site_url: "https://labs.immobiliare.it/"
+  sponsor3:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
@@ -83,10 +87,14 @@ bronze:
     logo_filename: "coders51.svg"
     site_url: "https://www.coders51.com/"
   sponsor3:
+    name: "Mailup"
+    logo_filename: "mailup.svg"
+    site_url: "https://www.mailup.it/?b=1&utm_source=grusp&utm_medium=sitoevento&utm_campaign=IDI"
+  sponsor4:
     name: "NTT DATA Italia"
     logo_filename: "nttdata.svg"
     site_url: "https://it.nttdata.com/"
-  sponsor4:
+  sponsor5:
     name: "Sticker Mule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
