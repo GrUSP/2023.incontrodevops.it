@@ -62,7 +62,7 @@ gold:
     site_url: "https://www.sparkfabrik.com/it/"
   sponsor2:
     name: "workwave"
-    logo_filename: "workwave.svg"
+    logo_filename: "workwave.svg "
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
