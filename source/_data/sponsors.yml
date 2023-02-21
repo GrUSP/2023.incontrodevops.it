@@ -69,6 +69,10 @@ silver:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
+  sponsor11:
+    name: "fido"
+    logo_filename: "fido.svg"
+    site_url: "https://www.fido.id/"
   sponsor2:
     name: "Immobiliare"
     logo_filename: "immobiliare.svg"
