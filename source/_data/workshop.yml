@@ -137,6 +137,12 @@ workshops:
         pic_filename: federico-antoniazzi.png
         teacher_role: "DevOps Engineer"
         teacher_org: "SIGHUP"
+      teacher_2:
+        teacher_name: "Michele Buccarello"
+        teacher_bio: "Michele Buccarello è Kubernetes Enterprise Architect presso SIGHUP. Michele è focalizzato sulla modernizzazione delle applicazioni e sul design di journey to cloud. Appassionato di service mesh."
+        pic_filename: michele-buccarello.jpg
+        teacher_role: "Kubernetes Enterprise Architect"
+        teacher_org: "SIGHUP"
     topics_title: "Programma"
     topics:
       - "Architettura di Kubernetes;"

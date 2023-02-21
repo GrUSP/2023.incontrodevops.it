@@ -33,7 +33,7 @@ platinum:
   sponsor3:
     name: "iGenius"
     logo_filename: "iGenius.svg"
-    site_url: "https://www.igenius.ai/company"
+    site_url: "https://www.igenius.ai/"
   sponsor4:
     name: "OptionFactory"
     logo_filename: "optionfactory.svg"
@@ -65,6 +65,10 @@ gold:
     logo_filename: "workwave.svg "
     site_url: "https://www.workwave.com/"
 silver:
+  sponsor0:
+    name: "Axelerant"
+    logo_filename: "axelerant.svg"
+    site_url: "https://www.axelerant.it/"
   sponsor1:
     name: "Facile.it"
     logo_filename: "facile.svg"
@@ -103,6 +107,10 @@ bronze:
     logo_filename: "nttdata.svg"
     site_url: "https://it.nttdata.com/"
   sponsor5:
+    name: "Red Hat"
+    logo_filename: "redhat.svg"
+    site_url: "https://www.redhat.com/"
+  sponsor6:
     name: "Sticker Mule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
