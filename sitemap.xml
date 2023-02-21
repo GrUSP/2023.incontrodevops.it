@@ -9,7 +9,7 @@
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/workshop/RabbitMQ.html</loc>
+    <loc>https://2023.incontrodevops.it/welcome/coc.html</loc>
     
     <lastmod>2023-02-21</lastmod>
     
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/workshop/introduzione_kubernetes.html</loc>
+    <loc>https://2023.incontrodevops.it/welcome/scholarships.html</loc>
     
     <lastmod>2023-02-21</lastmod>
     
@@ -65,21 +65,14 @@
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/welcome/coc.html</loc>
+    <loc>https://2023.incontrodevops.it/workshop/RabbitMQ.html</loc>
     
     <lastmod>2023-02-21</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2023.incontrodevops.it/welcome/scholarships.html</loc>
-    
-    <lastmod>2023-02-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.incontrodevops.it/welcome/where.html</loc>
+    <loc>https://2023.incontrodevops.it/workshop/introduzione_kubernetes.html</loc>
     
     <lastmod>2023-02-21</lastmod>
     
@@ -87,6 +80,13 @@
   
   <url>
     <loc>https://2023.incontrodevops.it/workshop/tanzu.html</loc>
+    
+    <lastmod>2023-02-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.incontrodevops.it/welcome/where.html</loc>
     
     <lastmod>2023-02-21</lastmod>
     
