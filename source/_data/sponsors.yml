@@ -90,6 +90,10 @@ silver:
     logo_filename: "vegans.svg"
     site_url: "https://www.vegans.it/"
 bronze:
+  sponsor0:
+    name: "axerve"
+    logo_filename: "axerve.svg"
+    site_url: "https://www.axerve.com/"
   sponsor1:
     name: "Clastix"
     logo_filename: "clastix.svg"
