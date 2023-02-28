@@ -224,16 +224,16 @@ days:
         start_datetime: 2023-03-10T09:30+01:00
         end_datetime: 2023-03-10T09:45+01:00
         talk_title: "Intro by GrUSP"
-      massimo-referre:
+      paolo-mainardi:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-03-10T09:45+01:00
         end_datetime: 2023-03-10T10:20+01:00
-        talk_title: "Kubernetes as a platform Vs. Kubernetes as an API"
-        talk_description: "Se chiedete a 100 persone cosa e' Kubernetes otterrete 100 diverse risposte. Kubernetes e' un orchestratore di container ma puo' anche essere un sistema di controllo e riconciliazione globale dello stato della vostra infrastruttura IT. In questo talk ripercorreremo brevemente questi vari casi d'uso per poi addentrarci in uno specifico esempio di utilizzo di Kubernetes come API di un diverso orchestratotore di container. L'obiettivo di questa sessione e' di dimostrare come Kubernetes, all'estremo, possa delegare anche l'esecuzione di container e come questo possa semplificare la gestione del vostro cluster."
+        talk_title: "Deep dive nella supply chain della nostra infrastruttura cloud"
+        talk_description: "L'infrastruttura come codice e le applicazioni cloud-native consentono di raggiungere livelli senza precedenti di efficienza e governance dei nostri servizi cloud, rendendoci capaci di creare infrastrutture immutabili e ripetibili, di poterci operare come se fossero applicazioni quindi versionando il codice, qa e test automatici e procedure di rilascio automatiche verso gli ambienti di destinazione. Più inseriamo codice nelle nostre infrastrutture, più estendiamo la superficie di attacco. In questo talk, esaminerò gli attacchi alla catena di approvvigionamento a diversi livelli, come rilevarli e le tecniche per mitigarli e come scrivere codice IaC più sicuro."
         talk_video_url:
         speakers:
-          speaker_1: *massimo
+          speaker_1: *paolo
       leonardo-romanato:
         item_type: "talk"
         track: *track_2
@@ -337,16 +337,16 @@ days:
         end_datetime: 2023-03-10T14:25+01:00
         talk_title: "Pausa pranzo"
         service_icon: "cutlery"
-      paolo-mainardi:
+      massimo-referre:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-03-10T14:25+01:00
         end_datetime: 2023-03-10T15:00+01:00
-        talk_title: "Deep dive nella supply chain della nostra infrastruttura cloud"
-        talk_description: "L'infrastruttura come codice e le applicazioni cloud-native consentono di raggiungere livelli senza precedenti di efficienza e governance dei nostri servizi cloud, rendendoci capaci di creare infrastrutture immutabili e ripetibili, di poterci operare come se fossero applicazioni quindi versionando il codice, qa e test automatici e procedure di rilascio automatiche verso gli ambienti di destinazione. Più inseriamo codice nelle nostre infrastrutture, più estendiamo la superficie di attacco. In questo talk, esaminerò gli attacchi alla catena di approvvigionamento a diversi livelli, come rilevarli e le tecniche per mitigarli e come scrivere codice IaC più sicuro."
+        talk_title: "Kubernetes as a platform Vs. Kubernetes as an API"
+        talk_description: "Se chiedete a 100 persone cosa e' Kubernetes otterrete 100 diverse risposte. Kubernetes e' un orchestratore di container ma puo' anche essere un sistema di controllo e riconciliazione globale dello stato della vostra infrastruttura IT. In questo talk ripercorreremo brevemente questi vari casi d'uso per poi addentrarci in uno specifico esempio di utilizzo di Kubernetes come API di un diverso orchestratotore di container. L'obiettivo di questa sessione e' di dimostrare come Kubernetes, all'estremo, possa delegare anche l'esecuzione di container e come questo possa semplificare la gestione del vostro cluster."
         talk_video_url:
         speakers:
-          speaker_1: *paolo
+          speaker_1: *massimo
       davide-imola:
         item_type: "talk"
         track: *track_2
