@@ -29,7 +29,7 @@ platinum:
   sponsor2:
     name: "digital.ai"
     logo_filename: "digital_ai.svg"
-    site_url: "http://www.digital.ai"
+    site_url: "https://info.digital.ai/bologna-devops"
   sponsor3:
     name: "iGenius"
     logo_filename: "iGenius.svg"
